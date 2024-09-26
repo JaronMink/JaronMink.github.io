@@ -17,7 +17,7 @@ Maybe you're interested in a PhD but would like to build up your resume or previ
 
 As part of the Cybersecurity and Trusted Foundations center at ASU, we sponser six month apprenticeships each summer and winter. During this time you will work with faculty and graduate students on a self-contained project that results in an academic publication! The goal of this program is to get you an awesome resume-building experience to talk about, and an amazing recommendation letter. The time commitment is generally 32 hours per week for six months, and it is intended for people who are either not students or who can take full-time from their studies to pursue research.
 
-[Learn more about the application and their deadlines here!](https://ctf.asu.edu/education/apprenticeship-program/). *Note: the application closes about ~6 months before the apprenticeship starts! Be sure to apply early!*
+[Learn more about the program and the deadlines here](https://ctf.asu.edu/education/apprenticeship-program/)! *Note: applications close about ~6 months before the apprenticeship starts. Be sure to apply early!*
 
 
 <h3>Paid Research for ASU Masters Students/ASU Undergraduate Students</h3>
