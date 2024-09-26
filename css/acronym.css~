@@ -1,0 +1,4 @@
+.acronym {
+    color: crimson;
+    font-weight: bolder;
+}
