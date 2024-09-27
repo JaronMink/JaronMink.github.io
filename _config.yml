@@ -9,7 +9,7 @@ description:        "The Happy Lab is a human factors in computer security and p
 about: 		    "We are a group of researchers interested in learning how to better protect people by first understanding how people interact with software. Currently, our focus "
 
 # URL
-url:                http://happyresearchlab.com
+url:                https://happyresearchlab.com
 baseurl:            
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
