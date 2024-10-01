@@ -15,13 +15,13 @@ If you are interested in joining the lab please:
 <h3>Paid Apprenticeships</h3>
 Maybe you're interested in a PhD but would like to build up your resume or preview it before starting? Consider doing an apprenticeship!
 
-As part of the Cybersecurity and Trusted Foundations center at ASU, we sponser six month apprenticeships each summer and winter. During this time you will work with faculty and graduate students on a self-contained project that results in an academic publication! The goal of this program is to get you an awesome resume-building experience to talk about, and an amazing recommendation letter. The time commitment is generally 32 hours per week for six months, and it is intended for people who are either not students or who can take full-time from their studies to pursue research.
+As part of the Cybersecurity and Trusted Foundations Center at ASU, we sponsor six-month apprenticeships each summer and winter. During this time, you will work with faculty and graduate students on a self-contained project that results in an academic publication! The goal of this program is to get you an awesome resume-building experience to talk about, and an amazing recommendation letter. The time commitment is generally 32 hours per week for six months, and it is intended for people who are either not students or who can take full-time from their studies to pursue research.
 
 [Learn more about the program and the deadlines here](https://ctf.asu.edu/education/apprenticeship-program/)! *Note: applications close about ~6 months before the apprenticeship starts. Be sure to apply early!*
 
 
-<h3>Paid Research for ASU Masters Students/ASU Undergraduate Students</h3>
+<h3>Paid Research for ASU Master's/Undergraduate Students</h3>
 If you're a current ASU student and are interested in research during your degree, ASU has an amazing set of programs that will let you work with our lab!
-Masters student's can apply through [MORE](https://students.engineering.asu.edu/graduate/research/more/) and Undergraduate students can apply through or [GCSP](https://gcsp.engineering.asu.edu/research-stipend/) (if you are a GCSP student) or [FURI](https://students.engineering.asu.edu/furi/).
+Masters student's can apply through [MORE](https://students.engineering.asu.edu/graduate/research/more/) and Undergraduate students can apply through [GCSP](https://gcsp.engineering.asu.edu/research-stipend/) (if you are a GCSP student) or [FURI](https://students.engineering.asu.edu/furi/).
 
-Depending on the projects outcome, you may be able to be funded for additional semesters of research through the Happy Lab!
+You may be able to be funded for additional semesters of research through the Happy Lab!
