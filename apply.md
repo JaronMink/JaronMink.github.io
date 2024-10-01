@@ -9,7 +9,7 @@ Our lab is always recruiting talented, motivated students! We have several posit
 We're hiring several PhD students for the Fall 2025!
 If you are interested in joining the lab please:
 1. [Submit an application](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true) to ASU's PhD program and note that you are interested in working with Jaron Mink in the application.
-2. Send Jaron (jaron.mink@asu.edu) an email and let them know: (1) you applied, (2) any relevant prior experiences you may have, and (3) what you are interested in researching during your PhD!
+2. Send [Jaron](https://jaronm.ink/) an email and let them know: (1) you applied, (2) any relevant prior experiences you may have, and (3) what you are interested in researching during your PhD!
 
 
 <h3>Paid Apprenticeships</h3>
