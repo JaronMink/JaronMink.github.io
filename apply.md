@@ -19,6 +19,8 @@ As part of the Cybersecurity and Trusted Foundations Center at ASU, we sponsor s
 
 [Learn more about the program and the deadlines here](https://ctf.asu.edu/education/apprenticeship-program/)! *Note: applications close about ~6 months before the apprenticeship starts. Be sure to apply early!*
 
+Additional we also offer the [Summer Research Initative](https://students.engineering.asu.edu/graduate/research/suri/) (SURI) for undergraduate and graduates from across the globe to work with our lab for eight-weeks during summer.
+
 
 <h3>Paid Research for ASU Master's/Undergraduate Students</h3>
 If you're a current ASU student and are interested in research during your degree, ASU has an amazing set of programs that will let you work with our lab!
