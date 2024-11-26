@@ -7,6 +7,16 @@ Our lab is always recruiting talented, motivated students! We have several posit
 For all emails relating to position inquires, please be specific about why you are interested in the lab and what project you would like to work on (this is not binding, it's just useful to get a sense of interest!).
 Please do not send a generic copy-paste email, Jaron unfortunately cannot respond to every email and these are unlikely to receive a response.
 
+<h2>Why Study at ASU?</h2>
+[ASU has one of the strongest computer security groups in the nation](https://csrankings.org/#/index?sec&us).
+We have over 14 faculty that specialize in computer securtity spanning everything from cryptography and binary analysis to machine learning security and security education.
+Our courses are extremely diverse and we promote an extremely friendly and supportive work culture.
+
+<!-- <h2>What's the Happy Lab's Work Culture?</h2> -->
+
+
+
+
 <h3>Prospective PhD Students</h3>
 
 We're hiring several PhD students for the Fall 2025!
