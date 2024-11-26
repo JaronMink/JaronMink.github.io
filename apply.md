@@ -5,7 +5,7 @@ permalink: /apply/
 Our lab is always recruiting talented, motivated students! We have several positions open.
 
 For all emails relating to position inquires, please be specific about why you are interested in the lab and what project you would like to work on (this is not binding, it's just useful to get a sense of interest!).
-Please do not send a generic copy-paste email, I unfortunately cannot respond to every email and these are unlikely to receive a response.
+Please do not send a generic copy-paste email, Jaron unfortunately cannot respond to every email and these are unlikely to receive a response.
 
 <h3>Prospective PhD Students</h3>
 

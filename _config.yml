@@ -28,8 +28,8 @@ nav:
 #    href:           "/about"
   - name:           "publications"
     href:           "/publication"
-#  - name:           "people"
-#    href:           "/people"
+  - name:           "people"
+    href:           "/people"
   # - name:           "blog"
     # href:           "/blog"
 #   - name:           "abstracts"
@@ -70,6 +70,9 @@ collections:
     output: true
     permalink: /people/:title/index.html
 
+
+#Misc News
+news_24_humancenteredsecurity: https://open.spotify.com/episode/1sDfqqkM7jHg1SxSKGW98e?si=9f5bf708723b4b69
 
 # Publications
 

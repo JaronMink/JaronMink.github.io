@@ -1,0 +1,26 @@
+---
+name: Jaron Mink
+position: pi
+avatar: jaronmink.jpg
+twitter: JaronMink
+---
+
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+
+- _Assistant Professor, Arizona State University_<br>
+- _Empiricist. Collaborator. Dancer._
+
+<i class="fa fa-envelope-o"></i> `jaronm.ink`
+<br>
+<i class="fa fa-envelope-o"></i> `jaron.mink@asu.edu`
+
+**Office**<br>
+Street Address <br>
+Tempe, AZ XXXXX
+
+[Jaron Mink](http://jaronm.ink/) runs their lab at Arizona State University.
+Jaron is interesting in emerging ways people interact with ML systems, and the implications that has on security, and privacy.
+Additionally, Jaron is interested in learning how to design ML systems to be more fair, and transparent in high-stakes settings.
+Jaron was a PhD student with Dr. Gang Wang at University of Illinois--Urbana-Champaign and as an undergrad in UCLA.
+Other than computers, Jaron loves social dancing and regularly pratices Lindy Hop, Blues, Shag, and Balboa.
+

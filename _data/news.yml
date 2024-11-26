@@ -1,5 +1,5 @@
 - date: 2024-10-23
-  details: Jaron was interviewed by the <a href="https://open.spotify.com/show/4G4y7wNGzsbuuWC9yB2Zv4">Human-Centered Security Podcast</a>. <a href="https://open.spotify.com/episode/1sDfqqkM7jHg1SxSKGW98e?si=9f5bf708723b4b69">Check out the episode here</a>!
+  details: Jaron was interviewed by the <a href="https://open.spotify.com/show/4G4y7wNGzsbuuWC9yB2Zv4">Human-Centered Security Podcast</a>. <a href="{{site.news_24_humancenteredsecurity}}">Check out the episode here</a>!
   
 - date: 2024-09-03
   details: Jaron is heading out to the Bi-Annual NSF PI meeting to represent ASU's Grant with Tufts
