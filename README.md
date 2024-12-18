@@ -2,7 +2,7 @@
 
 We would like to thank the Kording Lab, whose [lab page](https://kordinglab.com/) this was cloned from! 
 
-This is repository for [The Happy Lab Website](http://kordinglab.com/). We use Jekyll to run our Github page. We are welcome for other people to contribute to our site not just lab members. Feel free to fork and pull-request!
+This is repository for [The Happy Lab Website](http://happyresearchlab/). We use Jekyll to run our Github page. 
 
 ## Run the page locally using Jekyll
 
