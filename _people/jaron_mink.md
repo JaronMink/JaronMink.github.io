@@ -8,7 +8,7 @@ twitter: JaronMink
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 - _Assistant Professor, Arizona State University_<br>
-- _Empiricist. Collaborator. Never Reviewer B._
+- _Empiricist. Collaborator. Never Reviewer 2._
 
 <i class="fa fa-desktop"></i> <a href="https://jaronm.ink"> `jaronm.ink`<a/>
 <br>
