@@ -12,7 +12,7 @@ Please do not send a generic copy-paste email, Jaron unfortunately cannot respon
 We have over 14 faculty that specialize in computer securtity spanning everything from cryptography and binary analysis to machine learning security and security education.
 Our courses are extremely diverse and we promote an extremely friendly and supportive work culture.
 
-<h2>What's the Happy Lab's Work Culture?</h2>
+<!-- <h2>What's the Happy Lab's Work Culture?</h2> -->
 
 
 
