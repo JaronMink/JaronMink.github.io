@@ -10,7 +10,7 @@ title: Nihaarika Agarwal
 - _Master's Student in Computer Science, Arizona State University_
 <br>
 
-<i class="fa fa-envelope-o"></i> `chuan194@asu.edu`
+<i class="fa fa-envelope-o"></i> `nagarw48@asu.edu`
 
 
 
