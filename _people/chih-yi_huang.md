@@ -1,6 +1,7 @@
 ---
 name: Chih-Yi Huang
 position: gradstudent
+avatar: chihyi.jpg
 twitter:
 joined: 2024
 title: Chih-Yi Huang
@@ -13,6 +14,6 @@ title: Chih-Yi Huang
 <i class="fa fa-envelope-o"></i> `chuan194@asu.edu`
 
 
-
+ChihYi is interested in exploring how users interact with natural language processing and vision models—whether they use these systems as-is or adapt them resourcefully with the wealth of information available online. She also aims to examine the security implications and potential traces left by these interactions. Beyond her research, ChihYi clears her mind with workouts and enjoys playing mobile games with her friends.
 
 
