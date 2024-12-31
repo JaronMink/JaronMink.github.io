@@ -3,6 +3,7 @@ name: Chih-Yi Huang
 position: gradstudent
 twitter:
 joined: 2024
+avatar: chihyi_huang.jpg
 title: Chih-Yi Huang
 ---
 
