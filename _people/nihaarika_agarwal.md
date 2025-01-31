@@ -1,6 +1,6 @@
 ---
 name: Nihaarika Agarwal
-position: gradstudent
+position: mastersstudent
 twitter:
 avatar: nihaarika_agarwal.jpg
 joined: 2024

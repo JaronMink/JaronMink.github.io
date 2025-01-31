@@ -1,6 +1,6 @@
 ---
 name: Aditi Ganapathi
-position: gradstudent
+position: mastersstudent
 avatar: aditi_ganapathi.jpg
 twitter:
 joined: 2024
