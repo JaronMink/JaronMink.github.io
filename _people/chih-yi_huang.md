@@ -1,5 +1,5 @@
 ---
-name: Chih-Yi Huang
+name: Chih-Yi (Joy) Huang
 position: mastersstudent
 twitter:
 joined: 2024
