@@ -1,6 +1,7 @@
 ---
 name: Jaron Mink
 position: pi
+position-text: Principal Investigator
 avatar: jaron_mink.jpg
 twitter: JaronMink
 title: Jaron Mink

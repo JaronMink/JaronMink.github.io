@@ -1,6 +1,7 @@
 ---
 name: Chih-Yi (Joy) Huang
 position: mastersstudent
+position-text: Master's	Student
 twitter:
 joined: 2024
 avatar: chihyi_huang.jpg
