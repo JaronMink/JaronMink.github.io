@@ -33,15 +33,16 @@ If you are interested in joining the lab please:
 2. [Submit a corresponding application](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK) through the Happy Lab (ASU's system can quite slow and this will help Jaron get back to you much quicker).
 
 
-<h3>Current ASU Masters and Undergraduate</h3>
-
-Master's and Undergraduate students interested in leading or working on publishable research are welcome to apply. Research will often require you to commit to a project for at least 6 months (after hearing about the project, of course). We strongly prefer to bring students into the group early in their program so that there's a possibility of a long-term collaboration if the fit is right.
+<h3>Current ASU Masters and Undergraduates</h3>
+Master's and Undergraduate students interested in leading or working on publishable research are welcome to apply. We strongly prefer to bring students into the group early in their program so that there's a possibility of a long-term collaboration if the fit is right. Research will often require you to commit to a project for at least 6 months (after hearing about the project, of course). 
 
 <!--
 If you're a current ASU student and are interested in research during your degree, ASU has an amazing set of programs that will let you work with our lab!
 Masters student's can apply through [MORE](https://students.engineering.asu.edu/graduate/research/more/) and Undergraduate students can apply through [GCSP](https://gcsp.engineering.asu.edu/research-stipend/) (if you are a GCSP student) or [FURI](https://students.engineering.asu.edu/furi/).
 -->
 
+<h3>External Masters and Undergraduates</h3>
+If you're interested in spending a summer at ASU, we also host external students for two month internships through the [SURI Program](https://students.engineering.asu.edu/graduate/research/suri/). Consider applying!
 
 <h3>Post-docs</h3>
 
