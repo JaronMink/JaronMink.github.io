@@ -34,7 +34,8 @@ If you are interested in joining the lab please:
 
 
 <h3>Current ASU Masters and Undergraduates</h3>
-Master's and Undergraduate students interested in leading or working on publishable research are welcome to apply. We strongly prefer to bring students into the group early in their program so that there's a possibility of a long-term collaboration if the fit is right. Research will often require you to commit to a project for at least 6 months (after hearing about the project, of course). 
+We’re always happy to connect with students who are interested in leading or collaborating on publishable research. We prefer to bring students into the group early in their program so there's a possibility of a long-term collaboration if the fit is right. These projects often take around 1–2 years from start to publication, so once you’ve had a chance to learn about the project and decide it’s the right match, we ask for a minimum commitment of about 6 months to ensure you can make a meaningful contribution.
+
 
 <!--
 If you're a current ASU student and are interested in research during your degree, ASU has an amazing set of programs that will let you work with our lab!
