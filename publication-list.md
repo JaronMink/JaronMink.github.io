@@ -15,7 +15,7 @@
   <br>
   <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_chi_24_pdf}}">PDF</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_chi_24_talk}}">Talk</a>
   <br>
-  <span style="font-size:80%">News: <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI RMF Response</a></span>
+  <span style="font-size:80%">News: <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI Executive Order RFI</a></span>
 
 **“Security is not my field, I’m a stats guy”: A Qualitative 
               Root Cause Analysis of Barriers to Adversarial Machine 
@@ -27,7 +27,7 @@
   <br>
   <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_usenix_23_pdf}}">PDF</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_usenix_23_talk}}">Talk</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_usenix_23_slides}}">Slides</a>
   <br>
-  <span style="font-size:80%">News: <a href="{{site.news_24_humancenteredsecurity}}">Human-Centered Security Podcast</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI RMF Response</a></span>
+  <span style="font-size:80%">News: <a href="{{site.news_24_humancenteredsecurity}}">Human-Centered Security Podcast</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI Executive Order RFI</a></span>
 
 
   
@@ -41,7 +41,7 @@ ML-Based Security Tools and Explanations**
   <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_ieee_23_pdf}}">PDF</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_ieee_23_talk}}">Talk</a>
   <a type="button" class="btn btn-info btn-xs" href="{{site.mink_ieee_23_slides}}">Slides</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_ieee_23_teaser}}">Teaser</a>
   <br>
-  <span style="font-size:80%">News: <a href="{{site.news_24_humancenteredsecurity}}">Human-Centered Security Podcast</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI RMF Response</a></span>
+  <span style="font-size:80%">News: <a href="{{site.news_24_humancenteredsecurity}}">Human-Centered Security Podcast</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI Executive Order RFI</a></span>
 
 **SoK: History is a Vast Early Warning System: Auditing the Provenance of System Intrusions**
   <br>
@@ -68,7 +68,7 @@ ML-Based Security Tools and Explanations**
   <br>
   <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_usenix_22_pdf}}">PDF</a> <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_usenix_22_supp}}">Supplemental Materials</a>  <a type="button" class="btn btn-info btn-xs" href="{{site.deepphish_page}}">Website</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_usenix_22_talk}}">Talk</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_usenix_22_slides}}">Slides</a> <span class="label label-success">Artifact Available, Artifacts Functional, Results Reproduced</span>
   <br>
-  <span style="font-size:80%">News: <a href="{{site.news_usenix_22_futurum}}">Futurum</a>, <a href="{{site.news_usenix_22_newscientist}}">New Scientist</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI RMF Response</a></span>
+  <span style="font-size:80%">News: <a href="{{site.news_usenix_22_futurum}}">Futurum</a>, <a href="{{site.news_usenix_22_newscientist}}">New Scientist</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI Executive Order RFI</a></span>
   <!--  [[PDF]]({{ site.mink_usenix_22_pdf }}) [[Article]]({{ site.deepphish_page }}) [[Supplemental Materials]]({{ site.mink_usenix_22_supp }}) -->
 
 **Beyond Bot Detection: Combating Fraudulent Online Survey Takers**
