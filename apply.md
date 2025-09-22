@@ -16,9 +16,9 @@ For emails relating to position inquires, we instead highly encourage you to sim
 
 
 <h2>Why Study at ASU?</h2>
-[ASU has one of the strongest computer security groups in the nation](https://csrankings.org/#/index?sec&us).
+[ASU has one of the strongest computer security groups in the world](https://csrankings.org/#/index?sec&us).
 We have over 14 faculty that specialize in computer securtity spanning everything from cryptography and binary analysis to machine learning security and security education.
-Our courses are awesome, and we promote an friendly and supportive work culture.
+Our courses are awesome, and we promote a friendly and supportive work culture.
 
 <!-- <h2>What's the Happy Lab's Work Culture?</h2> -->
 

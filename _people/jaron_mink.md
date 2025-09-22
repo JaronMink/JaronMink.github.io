@@ -7,7 +7,7 @@ twitter: JaronMink
 title: Jaron Mink
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}">
 
 - _Assistant Professor, Arizona State University_<br>
 - _Empiricist. Collaborator. Never Reviewer 2._

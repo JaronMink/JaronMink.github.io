@@ -8,7 +8,7 @@ avatar: chihyi_huang.jpg
 title: Chih-Yi Huang
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" >
 - _Research Apprentice in Computer Science, Arizona State University_
 <br>
 

@@ -8,7 +8,7 @@ joined: 2024
 title: Nihaarika Agarwal
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" >
 - _Master's Student in Computer Science, Arizona State University_
 <br>
 
