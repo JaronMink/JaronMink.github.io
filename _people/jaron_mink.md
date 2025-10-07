@@ -23,7 +23,6 @@ Tempe, AZ 85281
 
 [Jaron Mink](http://jaronm.ink/) runs their lab at Arizona State University.
 Jaron is interesting in the ways people interact with ML systems, and the implications they have on security and privacy.
-Jaron also discovers how to design ML systems to be more fair and transparent.
-Jaron was a PhD student with Dr. Gang Wang at University of Illinois--Urbana-Champaign and as an undergrad in UCLA.
-Other than computers, Jaron loves social dancing and regularly practices Lindy Hop, Blues, Shag, and Balboa.
+They were a PhD student with Dr. Gang Wang at University of Illinois--Urbana-Champaign and did their undergrad at UCLA.
+
 
