@@ -1,9 +1,11 @@
 ---
 name: Chih-Yi (Joy) Huang
-position: mastersstudent
+position: alumni
 position-text: Research Apprentice
 twitter:
 joined: 2024
+left: 2025
+left-to: Software Engineer, TSMC
 avatar: chihyi_huang.jpg
 title: Chih-Yi Huang
 ---
