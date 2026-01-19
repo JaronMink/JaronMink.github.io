@@ -1,3 +1,12 @@
+**I Can SE Clearly Now: Investigating the Effectiveness of GUI-based Symbolic Execution for Software Vulnerability Discovery**
+  <br>
+  Yi Jou Li, Zeming Yu, James A Mattei, Ananta Soneji, Zhibo Sun, Ruoyu “Fish” Wang, <u>Jaron Mink</u>, Daniel Votipka, Tiffany Bao
+  <br>
+  ACM CHI Conference on Human Factors in Computing Systems, 2026
+  <br>
+  <a type="button" class="btn btn-primary btn-xs" href="{{site.wei_usenix_24_pdf}}">PDF</a>
+  <br>
+  
 **SoK (or SoLK?): On the Quantitative Study of Sociodemographic Factors and Computer Security Behaviors**
   <br>
   Miranda Wei, <u>Jaron Mink</u>, Yael Eiger, Tadayoshi Kohno, Elissa M. Redmiles, Franziska Roesner
