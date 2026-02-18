@@ -78,6 +78,15 @@ mdi_response_nist_ai_rmf_web: https://mdi.georgetown.edu/news/formal-response-md
 
 # Publications
 
+## Mink_arXiv
+mink_arxiv26_pdf: https://arxiv.org/abs/2601.21028
+
+## LI_CHI_26
+li_chi_26_pdf: https://jaronm.ink/assets/pdf/papers/i-can-se-clearly_chi26.pdf
+
+## WEI_USENIX_24
+wei_usenix_24_pdf: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
+
 ## WEI_USENIX_24
 wei_usenix_24_pdf: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
 

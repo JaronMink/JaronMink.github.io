@@ -1,10 +1,21 @@
+**"Unlimited Realm of Exploration and Experimentation": Methods and Motivations of AI-Generated Sexual Content Creators**
+  <br>
+  <u>Jaron Mink</u>\*, Lucy Qin\*, Elissa M. Redmiles
+  <br>
+  Pre-Print, 2026
+  <br>
+  <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_arxiv26_pdf}}">PDF</a>
+  <br>
+  <span style="font-size:80%">* Equal Co-Authorship</span>
+
+
 **I Can SE Clearly Now: Investigating the Effectiveness of GUI-based Symbolic Execution for Software Vulnerability Discovery**
   <br>
-  Yi Jou Li, Zeming Yu, James A Mattei, Ananta Soneji, Zhibo Sun, Ruoyu “Fish” Wang, <u>Jaron Mink</u>, Daniel Votipka, Tiffany Bao
+  Yi Jou Li, Zeming Yu, James A Mattei, Ananta Soneji, Zhibo Sun, Ruoyu Wang, <u>Jaron Mink</u>, Daniel Votipka, Tiffany Bao
   <br>
   ACM CHI Conference on Human Factors in Computing Systems, 2026
   <br>
-  <a type="button" class="btn btn-primary btn-xs" href="{{site.wei_usenix_24_pdf}}">PDF</a>
+  <a type="button" class="btn btn-primary btn-xs" href="{{site.li_chi_26_pdf}}">PDF</a>
   <br>
   
 **SoK (or SoLK?): On the Quantitative Study of Sociodemographic Factors and Computer Security Behaviors**
@@ -37,6 +48,7 @@
   <a type="button" class="btn btn-primary btn-xs" href="{{site.mink_usenix_23_pdf}}">PDF</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_usenix_23_talk}}">Talk</a> <a type="button" class="btn btn-info btn-xs" href="{{site.mink_usenix_23_slides}}">Slides</a>
   <br>
   <span style="font-size:80%">News: <a href="{{site.news_24_humancenteredsecurity}}">Human-Centered Security Podcast</a>, <a href="{{site.mdi_response_nist_ai_rmf_web}}">NIST AI Executive Order RFI</a></span>
+  <span style="font-size:80%">* Equal Co-Authorship</span>
 
 
   
