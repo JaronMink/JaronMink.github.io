@@ -1,6 +1,19 @@
 ---
 ---
 
+span.lab-member {
+  text-decoration-line: underline;
+   text-decoration-thickness: 2px;
+   //text-underline-offset: 2px;                                                                                                                                                                                      
+   display: inline;
+}
+
+span.jaron {
+  text-decoration-line: underline;
+   text-decoration-thickness: 2px;
+   //text-underline-offset: 2px;
+   display: inline;
+}
 
 * {
   -webkit-box-sizing: border-box;

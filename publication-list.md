@@ -1,6 +1,16 @@
+**Do Hackers Dream of Electric Teachers?: A Large-Scale, In-Situ Evaluation of Cybersecurity Student Behaviors and Performance with AI Tutors**
+ <br>
+  Michael Tompkins, <span class="lab-member">Nihaarika Agarwal</span>, Ananta Soneji, Robert Wasinger, Connor Nelson, Kevin Leach, Rakibul Hasan, Adam Doupé, Daniel Votipka, Yan Shoshitaishvili, <span class="jaron">Jaron Mink</span>
+  <br>
+  Pre-Print, 2026
+  <br>
+  <a type="button" class="btn btn-primary btn-xs" href="{{site.tompkins_arxiv26_pdf}}">PDF</a>
+  <br>
+
+  
 **"Unlimited Realm of Exploration and Experimentation": Methods and Motivations of AI-Generated Sexual Content Creators**
   <br>
-  <u>Jaron Mink</u>\*, Lucy Qin\*, Elissa M. Redmiles
+   <span class="jaron">Jaron Mink</span>\*, Lucy Qin\*, Elissa M. Redmiles
   <br>
   Pre-Print, 2026
   <br>
@@ -11,7 +21,7 @@
 
 **I Can SE Clearly Now: Investigating the Effectiveness of GUI-based Symbolic Execution for Software Vulnerability Discovery**
   <br>
-  Yi Jou Li, Zeming Yu, James A Mattei, Ananta Soneji, Zhibo Sun, Ruoyu Wang, <u>Jaron Mink</u>, Daniel Votipka, Tiffany Bao
+  Yi Jou Li, Zeming Yu, James A Mattei, Ananta Soneji, Zhibo Sun, Ruoyu Wang,  <span class="jaron">Jaron Mink</span>, Daniel Votipka, Tiffany Bao
   <br>
   ACM CHI Conference on Human Factors in Computing Systems, 2026
   <br>
@@ -20,7 +30,7 @@
   
 **SoK (or SoLK?): On the Quantitative Study of Sociodemographic Factors and Computer Security Behaviors**
   <br>
-  Miranda Wei, <u>Jaron Mink</u>, Yael Eiger, Tadayoshi Kohno, Elissa M. Redmiles, Franziska Roesner
+  Miranda Wei,  <span class="jaron">Jaron Mink</span>, Yael Eiger, Tadayoshi Kohno, Elissa M. Redmiles, Franziska Roesner
   <br>
   33rd USENIX Security Symposium, 2024
   <br>
@@ -29,7 +39,7 @@
 
 **It's Trying Too Hard To Look Real: Deepfake Moderation Mistakes and Identity-Based Bias**
   <br>
-  <u>Jaron Mink</u>, Miranda Wei, Collins W. Munyendo, Kurt Hugenberg, Tadayoshi Kohno, Elissa&nbsp;M.&nbsp;Redmiles, Gang Wang
+   <span class="jaron">Jaron Mink</span>, Miranda Wei, Collins W. Munyendo, Kurt Hugenberg, Tadayoshi Kohno, Elissa&nbsp;M.&nbsp;Redmiles, Gang Wang
   <br>
   ACM CHI Conference on Human Factors in Computing Systems, 2024
   <br>
@@ -41,7 +51,7 @@
               Root Cause Analysis of Barriers to Adversarial Machine 
        	      Learning Defenses in Industry**
   <br>
-  <u>Jaron Mink</u>\*, Harjot Kaur\*, Juliane Schmüser\*, Sascha Fahl, Yasemin Acar
+   <span class="jaron">Jaron Mink</span>\*, Harjot Kaur\*, Juliane Schmüser\*, Sascha Fahl, Yasemin Acar
   <br>
   32nd USENIX Security Symposium, 2023 
   <br>
@@ -55,7 +65,7 @@
 **Everybody’s Got ML, Tell Me What Else You Have: Practitioners’ Perception of
 ML-Based Security Tools and Explanations**
   <br>
-  <u>Jaron Mink</u>, Hadjer Benkraouda, Limin Yang, Arridhana Ciptadi, Ali Ahmadzadeh, Daniel&nbsp;Votipka, Gang Wang
+   <span class="jaron">Jaron Mink</span>, Hadjer Benkraouda, Limin Yang, Arridhana Ciptadi, Ali Ahmadzadeh, Daniel&nbsp;Votipka, Gang Wang
   <br>
   44th IEEE Symposium on Security and Privacy, 2023
   <br>
@@ -66,7 +76,7 @@ ML-Based Security Tools and Explanations**
 
 **SoK: History is a Vast Early Warning System: Auditing the Provenance of System Intrusions**
   <br>
-  Muhammad Adil Inam, Yinfang Chen, Akul Goyal, Jason Liu, <u>Jaron Mink</u>, Noor Michael, Sneha Gaur, Adam&nbsp;Bates, Wajih Ul Hassan
+  Muhammad Adil Inam, Yinfang Chen, Akul Goyal, Jason Liu,  <span class="jaron">Jaron Mink</span>, Noor Michael, Sneha Gaur, Adam&nbsp;Bates, Wajih Ul Hassan
   <br>
   44th IEEE Symposium on Security and Privacy, 2023
   <br>
@@ -74,7 +84,7 @@ ML-Based Security Tools and Explanations**
 
 **FAuST: Striking a Bargain between Forensic Auditing’s Security and Throughput**
   <br>
-  Muhammad Adil Inam, Akul Goyal, Jason Liu, <u>Jaron Mink</u>, Noor Michael, Sneha Gaur, Adam Bates, Wajih Ul Hassan
+  Muhammad Adil Inam, Akul Goyal, Jason Liu,  <span class="jaron">Jaron Mink</span>, Noor Michael, Sneha Gaur, Adam Bates, Wajih Ul Hassan
   <br>
   38th Annual Computer Security Applications Conference, 2022
   <br>
@@ -83,7 +93,7 @@ ML-Based Security Tools and Explanations**
 
 **DeepPhish: Understanding User Trust Towards Artificially Generated Profiles in Online Social Networks**
   <br>
-  <u>Jaron Mink</u>, Licheng Luo,  Nata M. Barbosa, Olivia Figueria, Yang Wang, Gang Wang
+   <span class="jaron">Jaron Mink</span>, Licheng Luo,  Nata M. Barbosa, Olivia Figueria, Yang Wang, Gang Wang
   <br>
   31st USENIX Security Symposium, 2022
   <br>
@@ -94,7 +104,7 @@ ML-Based Security Tools and Explanations**
 
 **Beyond Bot Detection: Combating Fraudulent Online Survey Takers**
   <br>
-  Ziyi Zhang, Shuofei Zhu, <u>Jaron Mink</u>, Aiping Xiong, Linhai Song, Gang Wang
+  Ziyi Zhang, Shuofei Zhu,  <span class="jaron">Jaron Mink</span>, Aiping Xiong, Linhai Song, Gang Wang
   <br>
   The ACM Web Conference, 2022
   <br>
@@ -104,7 +114,7 @@ ML-Based Security Tools and Explanations**
   
 **Users Can Deduce Sensitive Locations Protected by Privacy Zones on Fitness Tracking App**
   <br>
-  <u>Jaron Mink</u>, Amanda Rose Yuile, Uma Pal, Adam J Aviv, Adam Bates
+   <span class="jaron">Jaron Mink</span>, Amanda Rose Yuile, Uma Pal, Adam J Aviv, Adam Bates
   <br>
   ACM CHI Conference on Human Factors in Computing Systems, 2022
   <br>
@@ -114,7 +124,7 @@ ML-Based Security Tools and Explanations**
 
 **On the Forensic Validity of Approximated Audit Logs**
   <br>
-  Noor Michael, <u>Jaron Mink</u>, Jason Liu, Sneha Gaur, Wajih Ul Hassan, Adam Bates
+  Noor Michael,  <span class="jaron">Jaron Mink</span>, Jason Liu, Sneha Gaur, Wajih Ul Hassan, Adam Bates
   <br>
   36th Annual Computer Security Applications Conference, 2020
   <br>
