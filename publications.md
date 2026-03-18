@@ -4,7 +4,7 @@ permalink: /publication/
 ---
 <u>Lab Members</u> are Underlined
 
-{% include_relative publication-list.md %}  
+{% include_relative new-publications.md %}
 
 ### Copyright Notice
 
