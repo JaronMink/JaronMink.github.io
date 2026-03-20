@@ -9,18 +9,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class='navbar-brand page-scroll' href='/'>
-              <span style='font-family:"Open Sans" font-weight:300'>{{ site.name }}</span>
+              <span class="navbar-brand-label">The Happy Lab at Arizona State University</span>
               </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <ul class="nav navbar-nav navbar-right">
-                      {% for nav in site.nav %}
-                      <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
-                      {% endfor %}
-                    </ul>
+                  {% for nav in site.nav %}
+                  <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
+                  {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

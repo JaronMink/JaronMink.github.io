@@ -1,0 +1,54 @@
+hero:
+  title: '<span class="acronym">H</span>uman <span class="acronym">A</span>spects of cyber <span class="acronym">P</span>rotection &amp; <span class="acronym">P</span>rivac<span class="acronym">Y</span>'
+  body: The Happy Lab studies how people shape the security, privacy, and real-world use of machine learning systems. We investigate where human factors create new vulnerabilities, where they unlock better defenses, and how to build safer AI systems in practice.
+  primary_cta:
+    label: Explore Publications
+    href: /publication/
+  secondary_cta:
+    label: Meet the Lab
+    href: /people/
+
+research_areas:
+  - label: ML-Enabled Abuse
+    image: /images/research-areas/aig.png
+    body: How people abuse ML systems, and how people perceive and respond to AI-generated media, deepfakes, and other emerging forms of sociotechnical harm.
+    links:
+      - label: AI Sexual Content
+        href: https://arxiv.org/abs/2601.21028
+      - label: Bias in AI Media Moderation
+        href: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
+      - label: Provenance Indicators
+        href: https://arxiv.org/abs/2505.16057
+  - label: ML for Security Applications
+    image: /images/research-areas/cybersec-educ.png
+    body: How ML can be integrated into security-sensitive environments, including education, analyst tooling, and practical support systems for defenders.
+    links:
+      - label: AI Cyber Tutors
+        href: https://arxiv.org/abs/2602.17448
+      - label: ML Tool Perceptions
+        href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
+  - label: ML Security and Privacy
+    image: /images/research-areas/ml-in-secops.png
+    body: How sociotechnical factors shape whether ML defenses are understandable, adoptable, and useful in real security and privacy workflows.
+    links:
+      - label: AML Defense Barriers
+        href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
+  - label: Security and Privacy (General)
+    image: /images/research-areas/security-privacy-general.png
+    image_fit: fill
+    body: Usable security, system security, and broader evaluation of how people interact with security-critical software beyond ML-specific settings.
+    links:
+      - label: Symbolic Exec GUI
+        href: https://jaronm.ink/assets/pdf/papers/i-can-se-clearly_chi26.pdf
+      - label: Sociodemographics & Security
+        href: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
+      - label: Audit Log SoK
+        href: https://jaronm.ink/assets/pdf/papers/history-is-a-vast-warning-system_ieee-23.pdf
+
+news_count: 4
+
+join_lab:
+  title: Interested in working with the group?
+  body: The lab site is the best place for current openings, application details, and ways to get involved.
+  href: /apply/
+  link_label: Join the Lab
