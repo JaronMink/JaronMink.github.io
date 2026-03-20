@@ -566,6 +566,7 @@ tbody tr:nth-child(odd) th {
   flex-direction: column;
   justify-content: flex-start;
   max-width: 40rem;
+  padding-bottom: 0.8rem;
 }
 
 .homepage-eyebrow,
@@ -889,6 +890,10 @@ tbody tr:nth-child(odd) th {
   .homepage-hero-grid {
     display: grid;
     align-items: center;
+  }
+
+  .homepage-hero-copy {
+    padding-bottom: 0;
   }
 
   .homepage-director,
