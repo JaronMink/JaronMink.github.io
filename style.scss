@@ -662,7 +662,9 @@ tbody tr:nth-child(odd) th {
 }
 
 .homepage-section + .homepage-section {
-  padding-top: 2.4rem;
+  margin-top: 0.4rem;
+  padding-top: 2.6rem;
+  border-top: 1px solid rgba(21, 51, 79, 0.1);
 }
 
 .homepage-section-alt {
@@ -670,8 +672,17 @@ tbody tr:nth-child(odd) th {
 }
 
 .homepage-section-heading {
-  max-width: 42rem;
-  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.homepage-section-heading::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(211, 172, 79, 0.7), rgba(215, 225, 231, 0.95));
 }
 
 .homepage-section-title {
