@@ -2,8 +2,9 @@
 title: Publications
 permalink: /publication/
 ---
-Selected work from the Happy Lab.
-<u>Lab members</u> are underlined.
+# Publications
+
+<u>Lab members</u> are underlined. `*` indicates equal contribution.
 
 {% include publication-list.html %}
 

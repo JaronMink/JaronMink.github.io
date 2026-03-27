@@ -124,6 +124,7 @@ authors:
 ```
 
 Use `class: lab-member` only when you want an author underlined on the page.
+Use `suffix: '*'` to mark equal contribution.
 
 ## Maintainer Notes
 
