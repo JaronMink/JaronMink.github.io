@@ -3,7 +3,7 @@ title: Join the Lab!
 permalink: /apply/
 ---
 Our lab is always recruiting talented, motivated students!
-In general, if you are interested in applying for a position or research opprotunity, please fill out the lab's [application form](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK), all applicants will be reviewed, and if a good match exists, we'll reach out to you!
+In general, if you are interested in applying for a position or research opportunity, please fill out the lab's [application form](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK). All applicants will be reviewed, and if a good match exists, we'll reach out to you.
 
 
 
@@ -17,7 +17,7 @@ For emails relating to position inquires, we instead highly encourage you to sim
 
 <h2>Why Study at ASU?</h2>
 [ASU has one of the strongest computer security groups in the world](https://csrankings.org/#/index?sec&us).
-We have over 14 faculty that specialize in computer securtity spanning everything from cryptography and binary analysis to machine learning security and security education.
+We have over 14 faculty that specialize in computer security spanning everything from cryptography and binary analysis to machine learning security and security education.
 Our courses are awesome, and we promote a friendly and supportive work culture.
 
 <!-- <h2>What's the Happy Lab's Work Culture?</h2> -->
@@ -30,7 +30,7 @@ Our courses are awesome, and we promote a friendly and supportive work culture.
 We're hiring for several PhD students!
 If you are interested in joining the lab please:
 1. [Submit an application](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true) to ASU's PhD program and note that you are interested in working with Jaron Mink in the application.
-2. [Submit a corresponding application](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK) through the Happy Lab (ASU's system can quite slow and this will help Jaron get back to you much quicker).
+2. [Submit a corresponding application](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK) through the Happy Lab (ASU's system can be quite slow, and this will help Jaron get back to you much quicker).
 
 
 <h3>Current ASU Masters and Undergraduates</h3>
@@ -59,5 +59,4 @@ As part of the Cybersecurity and Trusted Foundations Center at ASU, we sponsor s
 
 Additional we also offer the [Summer Research Initative](https://students.engineering.asu.edu/graduate/research/suri/) (SURI) for undergraduate and graduates from across the globe to work with our lab for eight-weeks during summer.
 -->
-
 

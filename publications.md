@@ -1,10 +1,11 @@
 ---
-title: Publication
+title: Publications
 permalink: /publication/
 ---
-<u>Lab Members</u> are Underlined
+Selected work from the Happy Lab.
+<u>Lab members</u> are underlined.
 
-{% include_relative new-publications.md %}
+{% include publication-list.html %}
 
 ### Copyright Notice
 
