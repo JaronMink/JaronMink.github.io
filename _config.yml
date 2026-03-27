@@ -14,6 +14,14 @@ baseurl:
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
+exclude:
+  - README.md
+  - LICENSE
+  - scripts/
+  - people-old/
+  - images/_site/
+  - images/.jekyll-cache/
+
 # Markdown
 markdown:           kramdown
 

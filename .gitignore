@@ -6,6 +6,10 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache/
+images/_site/
+images/.jekyll-cache/
+*~
+\#*#
 
 
 ### PyCharm ###
