@@ -60,7 +60,6 @@ Jane is interested in usable security, privacy, and how people make sense of AI-
 - `position-text` is the label shown on the people page
 - `profile_lines`, `website_url`, `website_label`, `email`, and `office` are optional
 - If you do not have a field, just leave it out
-- If the name on your page differs from the name used in publication author lists, add `author_name: ...`
 - If you only want to update your bio, edit `index.md` and leave the image files alone
 
 ## 2. Add News
@@ -104,7 +103,6 @@ Example publication entry:
 
 - add newer publications near the top of `_data/publications.yml`
 - authors can usually just be plain strings
-- lab members are underlined automatically if the author name matches a current person page
 - put URLs directly in the publication entry
 
 Optional coverage links can go under `news:`
@@ -120,9 +118,12 @@ If you need a suffix or special styling, you can still use object form:
 ```yaml
 authors:
   - name: Jane Doe
+    class: lab-member
   - name: Pat Collaborator
     suffix: '*'
 ```
+
+Use `class: lab-member` only when you want an author underlined on the page.
 
 ## Maintainer Notes
 

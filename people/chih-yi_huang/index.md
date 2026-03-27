@@ -1,6 +1,5 @@
 ---
 title: Chih-Yi (Joy) Huang
-author_name: Chih-Yi Huang
 position: alumni
 position-text: Research Apprentice
 joined: 2024

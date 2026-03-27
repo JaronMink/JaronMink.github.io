@@ -1,4 +1,3 @@
-{% assign person_pages = site.pages | where: 'person_page', true %}
 {% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
 {% for pub in sorted_publications %}
   {% capture bib_author_line %}{% for author in pub.authors %}{% assign bib_author_name = author %}{% assign bib_author_suffix = '' %}{% if author.name %}{% assign bib_author_name = author.name %}{% assign bib_author_suffix = author.suffix | default: '' %}{% endif %}{{ bib_author_name | replace: '*', '' | strip }}{{ bib_author_suffix | replace: '*', '' }}{% unless forloop.last %} and {% endunless %}{% endfor %}{% endcapture %}
@@ -13,20 +12,6 @@
         {%- assign author_name = author.name -%}
         {%- assign author_class = author.class -%}
         {%- assign author_suffix = author.suffix -%}
-      {%- endif -%}
-      {%- assign author_match_name = author_name | replace: '*', '' | strip -%}
-      {%- if author_class == nil or author_class == '' -%}
-        {%- if author_match_name == 'Jaron Mink' -%}
-          {%- assign author_class = 'jaron' -%}
-        {%- else -%}
-          {%- for profile in person_pages -%}
-            {%- assign profile_author_name = profile.author_name | default: profile.title -%}
-            {%- if profile_author_name == author_match_name -%}
-              {%- assign author_class = 'lab-member' -%}
-              {%- break -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
       {%- endif -%}
       {%- if author_class -%}
         <span class="{{ author_class }}">{{ author_name }}</span>{%- if author_suffix -%}{{ author_suffix }}{%- endif -%}

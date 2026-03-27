@@ -5,7 +5,8 @@
     of Cybersecurity Student Behaviors and Performance with AI Tutors'
   authors:
   - Michael Tompkins
-  - Nihaarika Agarwal
+  - name: Nihaarika Agarwal
+    class: lab-member
   - Ananta Soneji
   - Robert Wasinger
   - Connor Nelson
@@ -14,7 +15,8 @@
   - Adam Doupé
   - Daniel Votipka
   - Yan Shoshitaishvili
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   venue: Pre-Print, 2026
   areas:
   - ml-for-security-applications
@@ -28,7 +30,9 @@
   title: '"Unlimited Realm of Exploration and Experimentation": Methods and Motivations
     of AI-Generated Sexual Content Creators'
   authors:
-  - Jaron Mink*
+  - name: Jaron Mink
+    class: lab-member
+    suffix: "*"
   - Lucy Qin*
   - Elissa M. Redmiles
   venue: Pre-Print, 2026
@@ -50,7 +54,8 @@
   - Ananta Soneji
   - Zhibo Sun
   - Ruoyu Wang
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Daniel Votipka
   - Tiffany Bao
   venue: ACM CHI Conference on Human Factors in Computing Systems, 2026
@@ -69,7 +74,8 @@
   authors:
   - Ayae Ide
   - Tory Park
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Tanusree Sharma
   venue: ACM Conference on Computer-Supported Cooperative Work and Social Computing,
     2026
@@ -87,7 +93,8 @@
     Computer Security Behaviors'
   authors:
   - Miranda Wei
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Yael Eiger
   - Tadayoshi Kohno
   - Elissa M. Redmiles
@@ -105,7 +112,8 @@
   title: 'It''s Trying Too Hard To Look Real: Deepfake Moderation Mistakes and Identity-Based
     Bias'
   authors:
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Miranda Wei
   - Collins W. Munyendo
   - Kurt Hugenberg
@@ -131,7 +139,9 @@
   title: '"Security is not my field, I''m a stats guy": A Qualitative Root Cause Analysis
     of Barriers to Adversarial Machine Learning Defenses in Industry'
   authors:
-  - Jaron Mink*
+  - name: Jaron Mink
+    class: lab-member
+    suffix: "*"
   - Harjot Kaur*
   - Juliane Schmüser*
   - Sascha Fahl
@@ -160,7 +170,8 @@
   title: 'Everybody''s Got ML, Tell Me What Else You Have: Practitioners'' Perception
     of ML-Based Security Tools and Explanations'
   authors:
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Hadjer Benkraouda
   - Limin Yang
   - Arridhana Ciptadi
@@ -199,7 +210,8 @@
   - Yinfang Chen
   - Akul Goyal
   - Jason Liu
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Noor Michael
   - Sneha Gaur
   - Adam Bates
@@ -219,7 +231,8 @@
   - Muhammad Adil Inam
   - Akul Goyal
   - Jason Liu
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Noor Michael
   - Sneha Gaur
   - Adam Bates
@@ -237,7 +250,8 @@
   title: 'DeepPhish: Understanding User Trust Towards Artificially Generated Profiles
     in Online Social Networks'
   authors:
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Licheng Luo
   - Natã M. Barbosa
   - Olivia Figueria
@@ -276,7 +290,8 @@
   authors:
   - Ziyi Zhang
   - Shuofei Zhu
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Aiping Xiong
   - Linhai Song
   - Gang Wang
@@ -296,7 +311,8 @@
   title: Users Can Deduce Sensitive Locations Protected by Privacy Zones on Fitness
     Tracking App
   authors:
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Amanda Rose Yuile
   - Uma Pal
   - Adam J Aviv
@@ -326,7 +342,8 @@
   title: On the Forensic Validity of Approximated Audit Logs
   authors:
   - Noor Michael
-  - Jaron Mink
+  - name: Jaron Mink
+    class: lab-member
   - Jason Liu
   - Sneha Gaur
   - Wajih Ul Hassan
