@@ -1,47 +1,47 @@
 ---
 title: People
 permalink: /people/
+layout: page
+person_page: false
 ---
 
-{% assign people_sorted = site.people | sort: 'joined' %}
+{% assign people_sorted = site.pages | where: 'person_page', true | sort: 'joined' %}
 {% assign role_array = "pi|postdoc|phdstudent|mastersstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 
 <h3>Our Team</h3>
 <div class="content list people">
 
 {% for role in role_array %}
-  {% assign people_in_role = people_sorted | where: 'position', role %}
-
   {% if role != 'alumni' %}
 
     {% for profile in people_sorted %}
-      {% if profile.position contains role %}
+      {% if profile.position == role %}
         <div class="list-item-people">
           <p class="list-post-title">
-            {% if profile.avatar %}
-              <a href="{{ site.baseurl }}{{ profile.url }}">
+            {% if profile.photo_ext %}
+              <a href="{{ profile.url | relative_url }}">
                 <img
                   class="profile-thumbnail"
-                  src="{{ site.baseurl }}/images/people/thumbs/{{ profile.avatar }}"
-                  alt="{{ profile.name }}"
+                  src="{{ profile.url | append: 'thumb.' | append: profile.photo_ext | relative_url }}"
+                  alt="{{ profile.title }}"
                   width="200"
                   height="200"
                   loading="lazy"
                   decoding="async">
               </a>
             {% else %}
-              <a href="{{ site.baseurl }}{{ profile.url }}">
+              <a href="{{ profile.url | relative_url }}">
                 <img
                   class="profile-thumbnail"
-                  src="{{ site.baseurl }}/images/people/thumbs/default.jpg"
-                  alt="{{ profile.name }}"
+                  src="{{ '/people/default/thumb.jpg' | relative_url }}"
+                  alt="{{ profile.title }}"
                   width="200"
                   height="200"
                   loading="lazy"
                   decoding="async">
               </a>
             {% endif %}
-            <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+            <a class="name" href="{{ profile.url | relative_url }}">{{ profile.title }}</a>
             <br>
             {{ profile.position-text }}
           </p>
@@ -74,8 +74,8 @@ permalink: /people/
       {% if profile.position == "alumni" %}
         <tr>
           <td>
-            <a class="name" href="{{ site.baseurl }}{{ profile.url }}">
-              {{ profile.name }}
+            <a class="name" href="{{ profile.url | relative_url }}">
+              {{ profile.title }}
             </a>
           </td>
           <td>

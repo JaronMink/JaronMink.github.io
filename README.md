@@ -1,12 +1,138 @@
 # The Happy Lab Website
 
-We would like to thank the Kording Lab, whose [lab page](https://kordinglab.com/) this was cloned from! 
+This repo is organized so lab members can update the site without learning the site internals.
 
-This is repository for [The Happy Lab Website](http://happyresearchlab/). We use Jekyll to run our Github page. 
+Most people only need these paths:
 
-## Run the page locally using Jekyll
+- `people/<your_slug>/` for your page and photos
+- `_data/news.yml` for news
+- `_data/publications.yml` for publications
 
-To run locally, follow instruction [here](https://jekyllrb.com/) to install Jekyll then run `jekyll serve` to see in `localhost:4000`. Here is a brief install guidelines.
+You usually do **not** need to edit HTML, CSS, `_layouts/`, or `_includes/`.
+
+## 1. Update Your Personal Page
+
+Your folder should look like this:
+
+```text
+people/<your_slug>/
+  index.md
+  thumb.jpg
+  profile.jpg
+```
+
+- `index.md`: your page text and profile details
+- `thumb.jpg`: the smaller square image used on the people page
+- `profile.jpg`: the medium square image used on your full profile page
+
+If your image needs transparency, use `.png` instead of `.jpg`.
+
+Use this template for `people/<your_slug>/index.md`:
+
+```markdown
+---
+title: Jane Doe
+position: phdstudent
+position-text: PhD Student
+joined: 2026
+photo_ext: jpg
+profile_lines:
+  - PhD Student in Computer Science, Arizona State University
+website_url: https://janedoe.example
+website_label: Personal Website
+email: jane.doe@asu.edu
+office: |-
+  BYENG 555
+  Tempe, AZ 85281
+---
+
+Jane is interested in usable security, privacy, and how people make sense of AI-assisted systems.
+```
+
+- Everything in the `---` block is structured info.
+- Everything below it is your bio in normal Markdown.
+- The site automatically renders your photo, role line, website, email, and office.
+- `title` is the name shown on the site
+- `photo_ext` should match your image type, usually `jpg`
+- The page automatically looks for `thumb.<photo_ext>` and `profile.<photo_ext>` in the same folder as `index.md`
+
+- `position` should be one of `pi`, `postdoc`, `phdstudent`, `mastersstudent`, `researchstaff`, `visiting`, `others`, or `alumni`
+- `position-text` is the label shown on the people page
+- `profile_lines`, `website_url`, `website_label`, `email`, and `office` are optional
+- If you do not have a field, just leave it out
+- If the name on your page differs from the name used in publication author lists, add `author_name: ...`
+- If you only want to update your bio, edit `index.md` and leave the image files alone
+
+## 2. Add News
+
+Edit `_data/news.yml`.
+
+Add the newest item at the top.
+
+Example:
+
+```yaml
+- date: 2026-03-27
+  details: "Our paper <a href='https://example.com'><em>Example Title</em></a> was accepted to ExampleConf!"
+```
+
+- use `YYYY-MM-DD`
+- quote `details` if it includes `:` or HTML
+- inline links are fine
+
+## 3. Add A Publication
+
+Edit `_data/publications.yml`.
+
+Example publication entry:
+
+```yaml
+- id: pub-example-2026
+  year: 2026
+  date: '2026-03-27'
+  title: 'An Example Paper Title'
+  authors:
+    - Jane Doe
+    - Jaron Mink
+    - Pat Collaborator
+  venue: Example Conference, 2026
+  links:
+    - label: PDF
+      url: https://example.com/paper.pdf
+      style: primary
+```
+
+- add newer publications near the top of `_data/publications.yml`
+- authors can usually just be plain strings
+- lab members are underlined automatically if the author name matches a current person page
+- put URLs directly in the publication entry
+
+Optional coverage links can go under `news:`
+
+```yaml
+news:
+  - label: Coverage
+    url: https://example.com/story
+```
+
+If you need a suffix or special styling, you can still use object form:
+
+```yaml
+authors:
+  - name: Jane Doe
+  - name: Pat Collaborator
+    suffix: '*'
+```
+
+## Maintainer Notes
+
+- Homepage content lives in `_data/homepage.yml`
+- Shared templates live in `_layouts/` and `_includes/`
+- Most students should not need to touch those files
+
+## Preview Locally
+
+If you want to preview the site locally:
 
 ```bash
 sudo gem install jekyll
@@ -14,54 +140,4 @@ sudo gem install rouge
 jekyll serve
 ```
 
-## Editing the lab website
-
-Below, we explain how to edit the lab webpage
-
-### Add posts
-
-It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
-date. Each post can be written in markdown format. You just have to state headers before writing: `title`, `description` and `categories`. `description` will be shown when you share on social media like Facebook or twitter. See the following headers:
-
-``` markdown
----
-title: Summer School in Computational Sensory-Motor Neuroscience (CoSMo)
-description: all links to CoSMo summer school in computational neuroscience materials
-categories: scientists
----
-```
-
-We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can choose and this will be rendered to different location.
-
-### How to add posts
-
-- **Directly edit on Github**, you can simply go to `_posts` and click `New file` then put some markdown file e.g. `2016-02-03-post-name.md` and start writing blog post. Github also allows you to preview it so it's nice for people who don't want to clone the repo. 
-
-- **Clone the repository**, kind of the same as directly add post on Github. You just have to clone the repository. Then add new post file, commit and push to the repo.
-
-The changes will take approximately half a minute to render. You can see the new posts or changes on [kordinglab.com](http://kordinglab.github.io/)!
-
-### Add yourself
-
-You can add yourself to the page in `_people` folder just create file name `<firstname>_<lastname>.md` in the folder. We require few line of header before you start writing your own page. See the following for the header
-
-``` markdown
----
-name: Eva Dyer
-position: postdoc
-avatar: eva.jpg
-twitter:
-joined: 2014
----
-```
-
-If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page. 
-For lab position, you can choose position from 4 classes including `postdoc`, `gradstudent`, `visiting`, `others` (so called Honorary members). Position will put you into section that you choose.
-
-### Add new publications
-
-Publication content now renders from `_data/publications.yml` through `_includes/publication-list.html`. The public JSON feed is exposed at `publications.json`.
-
-### Add news
-
-All news presented in the front page by editing `_data/news.yml`. There are some symbol that cannot be used directly e.g. `:`, be careful
+Then open `http://localhost:4000`.

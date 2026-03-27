@@ -1,3 +1,4 @@
+{% assign person_pages = site.pages | where: 'person_page', true %}
 {% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
 {% for pub in sorted_publications %}
   {% capture bib_author_line %}{% for author in pub.authors %}{% assign bib_author_name = author %}{% assign bib_author_suffix = '' %}{% if author.name %}{% assign bib_author_name = author.name %}{% assign bib_author_suffix = author.suffix | default: '' %}{% endif %}{{ bib_author_name | replace: '*', '' | strip }}{{ bib_author_suffix | replace: '*', '' }}{% unless forloop.last %} and {% endunless %}{% endfor %}{% endcapture %}
@@ -12,11 +13,19 @@
         {%- assign author_name = author.name -%}
         {%- assign author_class = author.class -%}
         {%- assign author_suffix = author.suffix -%}
-      {%- else -%}
-        {%- if author_name contains 'Jaron Mink' -%}
+      {%- endif -%}
+      {%- assign author_match_name = author_name | replace: '*', '' | strip -%}
+      {%- if author_class == nil or author_class == '' -%}
+        {%- if author_match_name == 'Jaron Mink' -%}
           {%- assign author_class = 'jaron' -%}
-        {%- elsif author_name contains 'Nihaarika Agarwal' -%}
-          {%- assign author_class = 'lab-member' -%}
+        {%- else -%}
+          {%- for profile in person_pages -%}
+            {%- assign profile_author_name = profile.author_name | default: profile.title -%}
+            {%- if profile_author_name == author_match_name -%}
+              {%- assign author_class = 'lab-member' -%}
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
         {%- endif -%}
       {%- endif -%}
       {%- if author_class -%}
@@ -33,27 +42,21 @@
       {{ pub.venue }}, {{ pub.year }}
     {% endif %}
     <br>
-    {% for link in pub.links %}
-      {% assign link_href = link.url %}
-      {% if link.url_key %}
-        {% assign link_href = site.data.links[link.url_key] %}
-      {% endif %}
-      {% if link_href %}
-        <a type="button" class="btn btn-{{ link.style | default: 'info' }} btn-xs" href="{{ link_href }}">{{ link.label }}</a>{% if pub.badge and forloop.last %} <span class="label label-success">{{ pub.badge }}</span>{% endif %}{% unless forloop.last %} {% endunless %}
-      {% endif %}
-    {% endfor %}
+    {% if pub.links %}
+      {% for link in pub.links %}
+        {% if link.url %}
+          <a type="button" class="btn btn-{{ link.style | default: 'info' }} btn-xs" href="{{ link.url }}">{{ link.label }}</a>{% if pub.badge and forloop.last %} <span class="label label-success">{{ pub.badge }}</span>{% endif %}{% unless forloop.last %} {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
     <button type="button" class="btn btn-info btn-xs js-copy-bib" data-title="{{ pub.title | escape }}" data-authors="{{ bib_author_line | strip | escape }}" data-booktitle="{{ pub.venue | escape }}" data-year="{{ pub.year }}">Bib</button>
     <br>
     {% if pub.news %}
       <span style="font-size:80%">
         News:
         {% for item in pub.news %}
-          {% assign item_href = item.url %}
-          {% if item.url_key %}
-            {% assign item_href = site.data.links[item.url_key] %}
-          {% endif %}
-          {% if item_href %}
-            <a href="{{ item_href }}">{{ item.label }}</a>{% unless forloop.last %}, {% endunless %}
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ item.label }}</a>{% unless forloop.last %}, {% endunless %}
           {% endif %}
         {% endfor %}
       </span>

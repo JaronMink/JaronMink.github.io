@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "The Happy Lab",
+  "short_name": "Happy Lab",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

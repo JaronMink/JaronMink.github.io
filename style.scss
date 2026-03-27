@@ -15,6 +15,11 @@ span.jaron {
    display: inline;
 }
 
+.acronym {
+  font-family: "Varela Round", "Open Sans", sans-serif;
+  font-weight: 1000;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -55,10 +60,6 @@ body {
   --homepage-cloud: #f8fbfc;
   --homepage-line: #d7e1e7;
   --homepage-muted: #60758a;
-}
-
-.MathJax_Display{
-  font-size: 80%;
 }
 
 a {
@@ -139,11 +140,6 @@ ul {
     margin-top: .25rem;
     margin-bottom: .5rem;
   }
-}
-
-ul.share-buttons{
-  list-style: none;
-  padding: 0;
 }
 
 ol {
@@ -441,6 +437,34 @@ tbody tr:nth-child(odd) th {
   width: min(300px, 100%);
   height: auto;
   margin: 0 0 1rem;
+}
+
+.profile-page-meta {
+  margin-bottom: 1.5rem;
+}
+
+.profile-page-lines {
+  margin: 0 0 0.75rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.profile-page-lines li {
+  margin-bottom: 0.2rem;
+  font-style: italic;
+}
+
+.profile-page-contact,
+.profile-page-office {
+  margin-bottom: 0.5rem;
+}
+
+.profile-page-contact i {
+  width: 1.1rem;
+}
+
+.profile-page-office strong {
+  color: #333;
 }
 
 .highlight .hll { background-color: #ffffcc }

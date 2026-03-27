@@ -20,8 +20,8 @@
   - ml-for-security-applications
   links:
   - label: PDF
-    url_key: tompkins_arxiv26_pdf
     style: primary
+    url: https://arxiv.org/abs/2602.17448
 - id: pub-aig-sc-2026
   year: 2026
   date: '2026-01-28'
@@ -36,8 +36,8 @@
   - ml-enabled-abuse
   links:
   - label: PDF
-    url_key: mink_arxiv26_pdf
     style: primary
+    url: https://arxiv.org/abs/2601.21028
 - id: pub-i-can-se-clearly-2026
   year: 2026
   date: '2026-04-13'
@@ -59,8 +59,8 @@
   - system-security
   links:
   - label: PDF
-    url_key: li_chi_26_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/i-can-se-clearly_chi26.pdf
 - id: pub-signals-of-provenance-2026
   year: 2026
   date: '2026-10-10'
@@ -71,14 +71,15 @@
   - Tory Park
   - Jaron Mink
   - Tanusree Sharma
-  venue: ACM Conference on Computer-Supported Cooperative Work and Social Computing, 2026
+  venue: ACM Conference on Computer-Supported Cooperative Work and Social Computing,
+    2026
   areas:
   - ml-enabled-abuse
   - non-ml-human-factors
   links:
   - label: PDF
-    url_key: ide_arxiv25_pdf
     style: primary
+    url: https://arxiv.org/abs/2505.16057
 - id: pub-solk-2024
   year: 2024
   date: '2024-08-14'
@@ -96,8 +97,8 @@
   - non-ml-human-factors
   links:
   - label: PDF
-    url_key: wei_usenix_24_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
 - id: pub-deepfake-moderation-2024
   year: 2024
   date: '2024-05-11'
@@ -116,14 +117,14 @@
   - ml-enabled-abuse
   links:
   - label: PDF
-    url_key: mink_chi_24_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
   - label: Talk
-    url_key: mink_chi_24_talk
     style: info
+    url: https://drive.google.com/file/d/1tn3Xx-y8hn4SirornvA_lxoV66BbgFk9/view?usp=sharing
   news:
   - label: NIST AI Executive Order RFI
-    url_key: mdi_response_nist_ai_rmf_web
+    url: https://mdi.georgetown.edu/news/formal-response-mdi-comment-on-nist-ai-executive-order-feb2024/
 - id: pub-security-not-my-field-2023
   year: 2023
   date: '2023-08-09'
@@ -140,19 +141,19 @@
   - ml-security-and-privacy
   links:
   - label: PDF
-    url_key: mink_usenix_23_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
   - label: Talk
-    url_key: mink_usenix_23_talk
     style: info
+    url: https://www.youtube.com/watch?v=a9meMcS79pM
   - label: Slides
-    url_key: mink_usenix_23_slides
     style: info
+    url: https://www.usenix.org/system/files/sec23_slides_mink.pdf
   news:
   - label: Human-Centered Security Podcast
-    url_key: news_2024_human_centered_security_url
+    url: https://open.spotify.com/episode/1sDfqqkM7jHg1SxSKGW98e?si=9f5bf708723b4b69
   - label: NIST AI Executive Order RFI
-    url_key: mdi_response_nist_ai_rmf_web
+    url: https://mdi.georgetown.edu/news/formal-response-mdi-comment-on-nist-ai-executive-order-feb2024/
 - id: pub-everybodys-got-ml-2023
   year: 2023
   date: '2023-05-22'
@@ -172,22 +173,22 @@
   - ml-security-and-privacy
   links:
   - label: PDF
-    url_key: mink_ieee_23_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
   - label: Talk
-    url_key: mink_ieee_23_talk
     style: info
+    url: https://www.youtube.com/watch?v=O6dlZdiJVOQ
   - label: Slides
-    url_key: mink_ieee_23_slides
     style: info
+    url: https://jaronm.ink/assets/pdf/presentation/everybodys-got-ml_ieee23_talk.pdf
   - label: Teaser
-    url_key: mink_ieee_23_teaser
     style: info
+    url: https://drive.google.com/file/d/1pYXwHbTudrwZ-MxGuEBnykbUK4Su0bGz/view?usp=share_link
   news:
   - label: Human-Centered Security Podcast
-    url_key: news_2024_human_centered_security_url
+    url: https://open.spotify.com/episode/1sDfqqkM7jHg1SxSKGW98e?si=9f5bf708723b4b69
   - label: NIST AI Executive Order RFI
-    url_key: mdi_response_nist_ai_rmf_web
+    url: https://mdi.georgetown.edu/news/formal-response-mdi-comment-on-nist-ai-executive-order-feb2024/
 - id: pub-history-early-warning-2023
   year: 2023
   date: '2023-05-22'
@@ -208,8 +209,8 @@
   - system-security
   links:
   - label: PDF
-    url_key: inam_ieee_23_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/history-is-a-vast-warning-system_ieee-23.pdf
 - id: pub-faust-2022
   year: 2022
   date: '2022-12-05'
@@ -228,8 +229,8 @@
   - system-security
   links:
   - label: PDF
-    url_key: inam_acsac_22_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/faust_acsac22.pdf
 - id: pub-deepphish-2022
   year: 2022
   date: '2022-08-10'
@@ -247,27 +248,27 @@
   - ml-enabled-abuse
   links:
   - label: PDF
-    url_key: mink_usenix_22_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/deepphish_usenix22.pdf
   - label: Supplemental Materials
-    url_key: mink_usenix_22_supp
     style: primary
+    url: https://github.com/JaronMink/DeepPhish
   - label: Website
-    url_key: deepphish_page
     style: info
+    url: https://jaronm.ink/deepphish/
   - label: Talk
-    url_key: mink_usenix_22_talk
     style: info
+    url: https://www.youtube.com/watch?v=wrRQdcXR-98
   - label: Slides
-    url_key: mink_usenix_22_slides
     style: info
+    url: https://www.usenix.org/system/files/sec22_slides-mink.pdf
   news:
   - label: Futurum
-    url_key: news_usenix_2022_futurum_url
+    url: https://futurumcareers.com/can-you-trust-what-you-see-online
   - label: New Scientist
-    url_key: news_usenix_2022_new_scientist_url
+    url: https://www.newscientist.com/article/2308977-people-are-bad-at-spotting-fake-linkedin-profiles-generated-by-ai/
   - label: NIST AI Executive Order RFI
-    url_key: mdi_response_nist_ai_rmf_web
+    url: https://mdi.georgetown.edu/news/formal-response-mdi-comment-on-nist-ai-executive-order-feb2024/
 - id: pub-beyond-bot-detection-2022
   year: 2022
   date: '2022-04-25'
@@ -284,11 +285,11 @@
   - non-ml-human-factors
   links:
   - label: PDF
-    url_key: zhang_www_22_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/beyond-bot-detection_www22.pdf
   news:
   - label: The Transmitter
-    url_key: zhang_www_2022_news_the_transmitter_url
+    url: https://www.thetransmitter.org/ethics/scammers-threaten-quality-of-research-survey-data/
 - id: pub-users-can-deduce-2022
   year: 2022
   date: '2022-04-30'
@@ -305,20 +306,20 @@
   - non-ml-human-factors
   links:
   - label: PDF
-    url_key: mink_chi_22_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/users-can-deduce_chi22.pdf
   - label: Supplemental Materials
-    url_key: mink_chi_22_supp
     style: primary
+    url: https://bitbucket.org/sts-lab/epz-game-chi22
   - label: Talk
-    url_key: mink_chi_22_talk
     style: info
+    url: https://www.youtube.com/watch?v=eGElBs1VrZE
   - label: Slides
-    url_key: mink_chi_22_slides
     style: info
+    url: https://docs.google.com/presentation/d/1wSqnbfuTtRh-FDq6fE_GYEsEFbU55QKV/edit?usp=sharing&ouid=111263531954489916796&rtpof=true&sd=true
   news:
   - label: The 21st Show
-    url_key: mink_chi_2022_news_the_21st_show_url
+    url: https://will.illinois.edu/21stshow/story/how-private-is-your-health-tracking-app-data
 - id: pub-forensic-validity-2020
   year: 2020
   date: '2020-12-07'
@@ -335,11 +336,11 @@
   - system-security
   links:
   - label: PDF
-    url_key: michael20_pdf
     style: primary
+    url: https://jaronm.ink/assets/pdf/papers/forensicvalidity_acsac20.pdf
   - label: Talk
-    url_key: michael20_talk
     style: info
+    url: https://drive.google.com/file/d/1BZu_9k2i830O2Bzt9uXwZkNP-oBEYRdH/view?usp=sharing
   - label: Slides
-    url_key: michael20_slides
     style: info
+    url: https://drive.google.com/file/d/1Mmkcrxmp5dYf0Eei3F3-PbE7VgHa1Gp7/view?usp=sharing
