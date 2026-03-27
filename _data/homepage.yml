@@ -10,7 +10,11 @@ hero:
 
 research_areas:
   - label: ML-Enabled Abuse
-    image: /images/research-areas/aig.png
+    image: /images/research-areas/optimized/aig-480.jpg
+    image_srcset: /images/research-areas/optimized/aig-480.jpg 480w, /images/research-areas/optimized/aig-960.jpg 960w
+    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
+    image_width: 960
+    image_height: 436
     body: How people abuse ML systems, and how people perceive and respond to AI-generated media, deepfakes, and other emerging forms of sociotechnical harm.
     links:
       - label: AI Sexual Content
@@ -20,7 +24,11 @@ research_areas:
       - label: Provenance Indicators
         href: https://arxiv.org/abs/2505.16057
   - label: ML for Security Applications
-    image: /images/research-areas/cybersec-educ.png
+    image: /images/research-areas/optimized/cybersec-educ-480.png
+    image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
+    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
+    image_width: 960
+    image_height: 324
     body: How ML can be integrated into security-sensitive environments, including education, analyst tooling, and practical support systems for defenders.
     links:
       - label: AI Cyber Tutors
@@ -28,13 +36,21 @@ research_areas:
       - label: ML Tool Perceptions
         href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
   - label: ML Security and Privacy
-    image: /images/research-areas/ml-in-secops.png
+    image: /images/research-areas/optimized/ml-in-secops-480.png
+    image_srcset: /images/research-areas/optimized/ml-in-secops-480.png 480w, /images/research-areas/optimized/ml-in-secops-960.png 960w
+    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
+    image_width: 960
+    image_height: 324
     body: How sociotechnical factors shape whether ML defenses are understandable, adoptable, and useful in real security and privacy workflows.
     links:
       - label: AML Defense Barriers
         href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
   - label: Security and Privacy (General)
-    image: /images/research-areas/security-privacy-general.png
+    image: /images/research-areas/optimized/security-privacy-general-480.jpg
+    image_srcset: /images/research-areas/optimized/security-privacy-general-480.jpg 480w, /images/research-areas/optimized/security-privacy-general-960.jpg 960w
+    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
+    image_width: 960
+    image_height: 441
     image_fit: fill
     body: Usable security, system security, and broader evaluation of how people interact with security-critical software beyond ML-specific settings.
     links:

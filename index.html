@@ -19,7 +19,16 @@ layout: default
           </div>
         </div>
         <div class="homepage-hero-mark">
-          <img class="homepage-logo" src="/images/logo/happylab-v3.png" alt="The Happy Lab logo">
+          <img
+            class="homepage-logo"
+            src="/images/logo/optimized/happylab-v3-420.png"
+            srcset="/images/logo/optimized/happylab-v3-420.png 376w, /images/logo/optimized/happylab-v3-720.png 645w"
+            sizes="(max-width: 40rem) calc(100vw - 1.8rem), (max-width: 52rem) 18rem, 26rem"
+            alt="The Happy Lab logo"
+            width="645"
+            height="720"
+            decoding="async"
+            fetchpriority="high">
         </div>
       </div>
 
@@ -38,7 +47,15 @@ layout: default
           <article class="homepage-area-card{% unless area.image %} homepage-area-card-text-only{% endunless %}">
             <div class="homepage-area-figure{% unless area.image %} homepage-area-figure-empty{% endunless %}{% if area.image_fit == 'fill' %} homepage-area-figure-fill{% endif %}">
               {% if area.image %}
-                <img src="{{ area.image }}" alt="{{ area.label }}">
+                <img
+                  src="{{ area.image }}"
+                  {% if area.image_srcset %}srcset="{{ area.image_srcset }}"{% endif %}
+                  sizes="{{ area.image_sizes | default: '(max-width: 52rem) calc(100vw - 1.8rem), 30rem' }}"
+                  alt="{{ area.label }}"
+                  width="{{ area.image_width }}"
+                  height="{{ area.image_height }}"
+                  loading="lazy"
+                  decoding="async">
               {% endif %}
             </div>
             <div class="homepage-area-copy">
