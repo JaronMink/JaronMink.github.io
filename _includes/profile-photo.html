@@ -1,0 +1,11 @@
+{% assign profile_photo = page.avatar | default: "default.jpg" %}
+{% assign profile_photo_alt = page.name | default: page.title | default: "Lab member photo" %}
+<img
+  class="profile-page-image"
+  src="{{ site.baseurl }}/images/people/profiles/{{ profile_photo }}"
+  srcset="{{ site.baseurl }}/images/people/thumbs/{{ profile_photo }} 400w, {{ site.baseurl }}/images/people/profiles/{{ profile_photo }} 720w"
+  sizes="(max-width: 360px) calc(100vw - 2rem), 300px"
+  alt="{{ profile_photo_alt }}"
+  width="300"
+  decoding="async"
+  fetchpriority="high">

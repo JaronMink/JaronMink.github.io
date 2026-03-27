@@ -6,7 +6,7 @@ avatar: mink_mascot.png
 title: Lab Mascot
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+{% include profile-photo.html %}
 
 - _Lab Mascot, Arizona State University_<br>
 - _Fishing Detection, Mustelinae-Computer Interaction, IACUC Approved_
@@ -18,7 +18,6 @@ title: Lab Mascot
 **Office**<br>
 Stick Den 428, Creekside Campus,
 Somewhere Damp, North America
-
 
 
 

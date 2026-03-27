@@ -428,10 +428,19 @@ tbody tr:nth-child(odd) th {
 }
 
 .profile-thumbnail {
+  display: block;
   object-fit: cover;
   object-position: center top;
   width: 200px;
   height: 200px;
+  max-width: 100%;
+}
+
+.profile-page-image {
+  display: block;
+  width: min(300px, 100%);
+  height: auto;
+  margin: 0 0 1rem;
 }
 
 .highlight .hll { background-color: #ffffcc }
