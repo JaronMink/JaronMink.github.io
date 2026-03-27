@@ -1,5 +1,6 @@
 {% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
 {% for pub in sorted_publications %}
+  {% capture bib_author_line %}{% for author in pub.authors %}{% assign bib_author_name = author %}{% assign bib_author_suffix = '' %}{% if author.name %}{% assign bib_author_name = author.name %}{% assign bib_author_suffix = author.suffix | default: '' %}{% endif %}{{ bib_author_name | replace: '*', '' | strip }}{{ bib_author_suffix | replace: '*', '' }}{% unless forloop.last %} and {% endunless %}{% endfor %}{% endcapture %}
   <p>
     <strong>{{ pub.title }}</strong>
     <br>
@@ -41,9 +42,8 @@
         <a type="button" class="btn btn-{{ link.style | default: 'info' }} btn-xs" href="{{ link_href }}">{{ link.label }}</a>{% if pub.badge and forloop.last %} <span class="label label-success">{{ pub.badge }}</span>{% endif %}{% unless forloop.last %} {% endunless %}
       {% endif %}
     {% endfor %}
-    {% if pub.links %}
-      <br>
-    {% endif %}
+    <button type="button" class="btn btn-info btn-xs js-copy-bib" data-title="{{ pub.title | escape }}" data-authors="{{ bib_author_line | strip | escape }}" data-booktitle="{{ pub.venue | escape }}" data-year="{{ pub.year }}">Bib</button>
+    <br>
     {% if pub.news %}
       <span style="font-size:80%">
         News:
