@@ -649,6 +649,7 @@ tbody tr:nth-child(odd) th {
 
 .homepage-logo {
   width: min(100%, 26rem);
+  height: auto;
   margin: 0;
   filter: drop-shadow(0 22px 35px rgba(21, 51, 79, 0.12));
 }
