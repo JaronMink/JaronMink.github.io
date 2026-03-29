@@ -18,14 +18,24 @@ layout: default
       {% if page.website_url %}
         <p class="profile-page-contact">
           <i class="fa fa-desktop"></i>
-          <a href="{{ page.website_url }}">{{ page.website_label | default: page.website_url }}</a>
+          <a
+            href="{{ page.website_url }}"
+            data-analytics-event="profile_website_click"
+            data-analytics-param-context="profile_page"
+            data-analytics-param-person-name="{{ page.title | escape }}"
+          >{{ page.website_label | default: page.website_url }}</a>
         </p>
       {% endif %}
 
       {% if page.email %}
         <p class="profile-page-contact">
           <i class="fa fa-envelope-o"></i>
-          <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+          <a
+            href="mailto:{{ page.email }}"
+            data-analytics-event="profile_email_click"
+            data-analytics-param-context="profile_page"
+            data-analytics-param-person-name="{{ page.title | escape }}"
+          >{{ page.email }}</a>
         </p>
       {% endif %}
 

@@ -3,7 +3,7 @@ title: Join the Lab!
 permalink: /apply/
 ---
 Our lab is always recruiting talented, motivated students!
-In general, if you are interested in applying for a position or research opportunity, please fill out the lab's [application form](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK). All applicants will be reviewed, and if a good match exists, we'll reach out to you.
+In general, if you are interested in applying for a position or research opportunity, please fill out the lab's <a href="https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK" data-analytics-event="apply_click" data-analytics-param-context="apply_page_intro" data-analytics-param-apply-target="happy_lab_application_form">application form</a>. All applicants will be reviewed, and if a good match exists, we'll reach out to you.
 
 ## Why Study at ASU?
 [ASU has one of the strongest computer security groups in the world](https://csrankings.org/#/index?sec&us).
@@ -14,8 +14,8 @@ Our courses are awesome, and we promote a friendly and supportive work culture.
 
 We're hiring for several PhD students!
 If you are interested in joining the lab please:
-1. [Submit an application](https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true) to ASU's PhD program and note that you are interested in working with Jaron Mink in the application.
-2. [Submit a corresponding application](https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK) through the Happy Lab (ASU's system can be quite slow, and this will help Jaron get back to you much quicker).
+1. <a href="https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd?init=false&nopassive=true" data-analytics-event="apply_click" data-analytics-param-context="apply_page_phd" data-analytics-param-apply-target="asu_phd_program">Submit an application</a> to ASU's PhD program and note that you are interested in working with Jaron Mink in the application.
+2. <a href="https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK" data-analytics-event="apply_click" data-analytics-param-context="apply_page_phd" data-analytics-param-apply-target="happy_lab_application_form">Submit a corresponding application</a> through the Happy Lab (ASU's system can be quite slow, and this will help Jaron get back to you much quicker).
 
 ### Current ASU Masters and Undergraduates
 We’re always happy to connect with students who are interested in leading or collaborating on publishable research. We prefer to bring students into the group early in their program so there's a possibility of a long-term collaboration if the fit is right. These projects often take around 1–2 years from start to publication, so once you’ve had a chance to learn about the project and decide it’s the right match, we ask for a minimum commitment of about 6 months to ensure you can make a meaningful contribution.

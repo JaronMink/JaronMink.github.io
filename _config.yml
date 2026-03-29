@@ -2,6 +2,7 @@ title: "The Happy Lab"
 description: "The Happy Lab is a human factors in computer security and privacy research group at Arizona State University."
 url: "https://happyresearchlab.com"
 baseurl: ""
+google_analytics_id: "G-H08E251YST"
 
 exclude:
   - README.md

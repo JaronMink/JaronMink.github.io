@@ -5,6 +5,11 @@
   {% if page.url == '/publication/' or page.permalink == '/publication/' %}
     {% assign is_publications_page = true %}
   {% endif %}
+  {% assign ga_measurement_id = site.google_analytics_id | default: "" | strip %}
+  {% assign ga_enabled = false %}
+  {% if ga_measurement_id != "" and jekyll.environment == "production" %}
+    {% assign ga_enabled = true %}
+  {% endif %}
   {% assign page_title = page.title | default: site.title %}
   {% assign page_description = page.description | default: site.description %}
   {% assign page_description_text = page_description | strip_html | strip_newlines | strip %}
@@ -31,14 +36,7 @@
   <meta property="og:description" content="{{ page_description_text | truncate:150 }}">
   <meta property="og:image" content="{{ '/images/logo/happylab.jpeg' | absolute_url }}">
   <meta name="google-site-verification" content="gdUm9oVE3KoWsLAvyKcfsvQhGvBpoCDCXP1A4BcTwhE">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SR3RKZW22"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-4SR3RKZW22');
-  </script>
+  {% include google-analytics.html ga_enabled=ga_enabled ga_measurement_id=ga_measurement_id %}
 </head>
 
 <body id="page-top" style="padding-top: 7em;">
@@ -47,6 +45,9 @@
 
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  {% if ga_enabled %}
+    <script src="{{ '/js/analytics.js' | relative_url }}"></script>
+  {% endif %}
   {% if is_publications_page %}
     <script src="{{ '/js/copy-bib.js' | relative_url }}"></script>
   {% endif %}

@@ -30,7 +30,16 @@
     {% if pub.links %}
       {% for link in pub.links %}
         {% if link.url %}
-          <a type="button" class="btn btn-{{ link.style | default: 'info' }} btn-xs" href="{{ link.url }}">{{ link.label }}</a>{% if pub.badge and forloop.last %} <span class="label label-success">{{ pub.badge }}</span>{% endif %}{% unless forloop.last %} {% endunless %}
+          <a
+            type="button"
+            class="btn btn-{{ link.style | default: 'info' }} btn-xs"
+            href="{{ link.url }}"
+            data-analytics-event="publication_click"
+            data-analytics-param-context="publication_list"
+            data-analytics-param-publication-title="{{ pub.title | escape }}"
+            data-analytics-param-publication-year="{{ pub.year }}"
+            data-analytics-param-link-label="{{ link.label | escape }}"
+          >{{ link.label }}</a>{% if pub.badge and forloop.last %} <span class="label label-success">{{ pub.badge }}</span>{% endif %}{% unless forloop.last %} {% endunless %}
         {% endif %}
       {% endfor %}
     {% endif %}

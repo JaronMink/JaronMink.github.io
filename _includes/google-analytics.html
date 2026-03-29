@@ -1,0 +1,9 @@
+{% if include.ga_enabled %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ include.ga_measurement_id | uri_escape }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ include.ga_measurement_id }}');
+  </script>
+{% endif %}

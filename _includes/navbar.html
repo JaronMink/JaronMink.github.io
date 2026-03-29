@@ -17,7 +17,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                   {% for nav in site.nav %}
-                  <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
+                  <li>
+                    <a
+                      class='name'
+                      href="{{ nav.href }}"
+                      {% if nav.href == '/apply/' %}
+                        data-analytics-event="apply_click"
+                        data-analytics-param-context="navbar_join_lab"
+                        data-analytics-param-apply-target="join_lab_page"
+                      {% endif %}
+                    >{{ nav.name }}</a>
+                  </li>
                   {% endfor %}
                 </ul>
             </div>

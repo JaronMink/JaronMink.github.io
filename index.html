@@ -64,7 +64,14 @@ layout: default
               {% if area.links %}
                 <p class="homepage-link-list">
                   {% for link in area.links %}
-                    <a href="{{ link.href }}">{{ link.label }}</a>{% unless forloop.last %} <span>&bull;</span> {% endunless %}
+                    <a
+                      href="{{ link.href }}"
+                      data-analytics-event="publication_click"
+                      data-analytics-param-context="homepage_research_area"
+                      data-analytics-param-area-label="{{ area.label | escape }}"
+                      data-analytics-param-publication-title="{{ link.analytics_title | default: link.label | escape }}"
+                      data-analytics-param-link-label="{{ link.label | escape }}"
+                    >{{ link.label }}</a>{% unless forloop.last %} <span>&bull;</span> {% endunless %}
                   {% endfor %}
                 </p>
               {% endif %}
@@ -104,7 +111,13 @@ layout: default
           <p>{{ homepage.join_lab.body }}</p>
         </div>
         <div class="homepage-director-action">
-          <a class="btn btn-primary btn-lg" href="{{ homepage.join_lab.href }}">{{ homepage.join_lab.link_label }}</a>
+          <a
+            class="btn btn-primary btn-lg"
+            href="{{ homepage.join_lab.href }}"
+            data-analytics-event="apply_click"
+            data-analytics-param-context="homepage_join_lab"
+            data-analytics-param-apply-target="join_lab_page"
+          >{{ homepage.join_lab.link_label }}</a>
         </div>
       </div>
     </div>
