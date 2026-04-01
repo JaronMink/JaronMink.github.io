@@ -127,12 +127,6 @@ authors:
 Use `class: lab-member` only when you want an author underlined on the page.
 Use `suffix: '*'` to mark equal contribution.
 
-## Maintainer Notes
-
-- Homepage content lives in `_data/homepage.yml`
-- Shared templates live in `_layouts/` and `_includes/`
-- Most students should not need to touch those files
-
 ## Preview Locally
 
 If you want to preview the site locally:
