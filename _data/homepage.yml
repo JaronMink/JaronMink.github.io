@@ -15,36 +15,38 @@ research_areas:
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
     image_height: 436
-    body: How people abuse ML systems, and how people perceive and respond to AI-generated media, deepfakes, and other emerging forms of sociotechnical harm.
+    body: How people abuse ML systems, and how people perceive and respond to abusive AI-generated media.
     links:
       - label: AI Sexual Content
         href: https://arxiv.org/abs/2601.21028
+      - label: AI Provenance Signals
+        href: https://arxiv.org/abs/2505.16057
       - label: Bias in AI Media Moderation
         href: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
-      - label: Provenance Indicators
-        href: https://arxiv.org/abs/2505.16057
-  - label: ML for Security Applications
-    image: /images/research-areas/optimized/cybersec-educ-480.png
-    image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
-    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
-    image_width: 960
-    image_height: 324
-    body: How ML can be integrated into security-sensitive environments, including education, analyst tooling, and practical support systems for defenders.
-    links:
-      - label: AI Cyber Tutors
-        href: https://arxiv.org/abs/2602.17448
-      - label: ML Tool Perceptions
-        href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
+      - label: Perceptions of AI Media
+        href: https://jaronm.ink/assets/pdf/papers/deepphish_usenix22.pdf
   - label: ML Security and Privacy
     image: /images/research-areas/optimized/ml-in-secops-480.png
     image_srcset: /images/research-areas/optimized/ml-in-secops-480.png 480w, /images/research-areas/optimized/ml-in-secops-960.png 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
     image_height: 324
-    body: How sociotechnical factors shape whether ML defenses are understandable, adoptable, and useful in real security and privacy workflows.
+    body: How sociotechnical factors impact real-world adoption of ML defenses.
     links:
       - label: AML Defense Barriers
         href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
+  - label: ML for Security Applications
+    image: /images/research-areas/optimized/cybersec-educ-480.png
+    image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
+    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
+    image_width: 960
+    image_height: 324
+    body: How ML can be integrated into security-sensitive environments.
+    links:
+      - label: AI Cyber Tutors
+        href: https://arxiv.org/abs/2602.17448
+      - label: ML Tool Perceptions
+        href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
   - label: Security and Privacy (General)
     image: /images/research-areas/optimized/security-privacy-general-480.jpg
     image_srcset: /images/research-areas/optimized/security-privacy-general-480.jpg 480w, /images/research-areas/optimized/security-privacy-general-960.jpg 960w
@@ -52,7 +54,7 @@ research_areas:
     image_width: 960
     image_height: 441
     image_fit: fill
-    body: Usable security, system security, and broader evaluation of how people interact with security-critical software beyond ML-specific settings.
+    body: Usable security and privacy, system security, and evaluation of HCI methodology.
     links:
       - label: Symbolic Exec GUI
         href: https://jaronm.ink/assets/pdf/papers/i-can-se-clearly_chi26.pdf
@@ -60,6 +62,10 @@ research_areas:
         href: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
       - label: Audit Log SoK
         href: https://jaronm.ink/assets/pdf/papers/history-is-a-vast-warning-system_ieee-23.pdf
+      - label: Bot Survey Fraud
+        href: https://jaronm.ink/assets/pdf/papers/beyond-bot-detection_www22.pdf
+      - label: Privacy Zones
+        href: https://jaronm.ink/assets/pdf/papers/users-can-deduce_chi22.pdf
 
 news_count: 4
 
