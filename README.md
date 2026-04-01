@@ -93,7 +93,6 @@ Example publication entry:
   title: 'An Example Paper Title'
   authors:
     - Jane Doe
-    - Jaron Mink
     - Pat Collaborator
   venue: Example Conference, 2026
   links:
