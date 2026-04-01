@@ -1,12 +1,6 @@
 # The Happy Lab Website
 
-This repo is organized so lab members can update the site without learning the site internals.
-
-## Credits
-
-This site builds on earlier academic lab website work in this repository. Credit to `titipata` for the original 2016 site scaffold, and to Daniel Acuna and other early contributors who helped shape the foundation this site grew from.
-
-The current Happy Lab version has also been, in part, vibe coded. Please read diffs carefully, sanity-check content and layout changes, and verify the site locally before shipping updates.
+This repo is organized so lab members can update the site without learning the site internals. It builds on earlier academic lab website work in this repository, with credit to `titipata` for the original 2016 site scaffold and to Daniel Acuna and other early contributors who helped shape the foundation this site grew from. The current Happy Lab version has also been, in part, vibe coded, so please read diffs carefully, sanity-check content and layout changes, and verify the site locally before shipping updates.
 
 Most people only need these paths:
 
