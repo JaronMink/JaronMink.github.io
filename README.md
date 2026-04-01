@@ -11,16 +11,6 @@ Most people only need these paths:
 
 You usually do **not** need to edit HTML, CSS, `_layouts/`, or `_includes/`.
 
-## Google Analytics
-
-Google Analytics 4 is loaded site-wide from the shared layout.
-
-- Set the GA4 measurement ID in `_config.yml` under `google_analytics_id`
-- The current site setting is `G-H08E251YST`
-- Analytics only loads when `JEKYLL_ENV=production`
-- To disable analytics, remove the value or leave it blank
-- The site emits a small event set: `apply_click`, `publication_click`, `profile_email_click`, and `profile_website_click`
-
 ## 1. Update Your Personal Page
 
 Your folder should look like this:
