@@ -19,8 +19,6 @@ research_areas:
     links:
       - label: AI Sexual Content
         href: https://arxiv.org/abs/2601.21028
-      - label: AI Provenance Signals
-        href: https://arxiv.org/abs/2505.16057
       - label: Bias in AI Media Moderation
         href: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
       - label: Perceptions of AI Media
