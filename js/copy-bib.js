@@ -123,7 +123,7 @@
   }
 
   function simplifyConferenceName(venue) {
-    var base = (venue || "").split(",")[0].trim();
+    var base = (venue || "").trim().replace(/\s*,\s*\d{4}\s*$/, "");
     base = base.replace(/^\d+(st|nd|rd|th)\s+/i, "");
     base = base.replace(/^Annual\s+/i, "");
     return base;

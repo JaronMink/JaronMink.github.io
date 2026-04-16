@@ -26,7 +26,7 @@
     url: https://arxiv.org/abs/2602.17448
 - id: pub-aig-sc-2026
   year: 2026
-  date: '2026-01-28'
+  date: '2026-06-25'
   title: '"Unlimited Realm of Exploration and Experimentation": Methods and Motivations
     of AI-Generated Sexual Content Creators'
   authors:
@@ -35,13 +35,31 @@
     suffix: "*"
   - Lucy Qin*
   - Elissa M. Redmiles
-  venue: Pre-Print, 2026
+  venue: ACM Conference on Fairness, Accountability, and Transparency, 2026
   areas:
   - ml-enabled-abuse
   links:
   - label: PDF
     style: primary
     url: https://arxiv.org/abs/2601.21028
+- id: pub-like-a-hammer-2026
+  year: 2026
+  date: '2026-04-16'
+  title: 'Like a Hammer, It Can Build, It Can Break: Large Language Model Uses,
+    Perceptions, and Adoption in Cybersecurity Operations on Reddit'
+  authors:
+  - Souradip Nath
+  - Chih-Yi Huang
+  - name: Aditi Ganapathi
+    class: lab-member
+  - Kashyap Thimmaraju
+  - name: Jaron Mink
+    class: lab-member
+  - Gail-Joon Ahn
+  venue: Pre-Print, 2026
+  areas:
+  - ml-for-security-applications
+  - ml-security-and-privacy
 - id: pub-i-can-se-clearly-2026
   year: 2026
   date: '2026-04-13'

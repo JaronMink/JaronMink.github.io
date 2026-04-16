@@ -36,6 +36,28 @@ layout: default
     </div>
   </section>
 
+  <section class="homepage-section homepage-section-news">
+    <div class="homepage-shell">
+      <div class="homepage-news-frame">
+        <p class="homepage-news-label">Recent News</p>
+        <ul class="homepage-news-list">
+          {% for news in site.data.news limit: homepage.news_count %}
+            <li class="homepage-news-item">
+              <p class="homepage-news-entry">
+                <span class="homepage-news-date">{{ news.date | date: "%B %-d, %Y" }}</span>
+                <span class="homepage-news-body">{{ news.details }}</span>
+              </p>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <p class="homepage-section-footer homepage-section-footer-news">
+          <a href="/news/">View more news</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
   <section class="homepage-section">
     <div class="homepage-shell">
       <div class="homepage-section-heading">
@@ -79,27 +101,6 @@ layout: default
           </article>
         {% endfor %}
       </div>
-    </div>
-  </section>
-
-  <section class="homepage-section">
-    <div class="homepage-shell">
-      <div class="homepage-section-heading">
-        <p class="homepage-section-kicker">Recent News</p>
-      </div>
-
-      <div class="homepage-news-list">
-        {% for news in site.data.news limit: homepage.news_count %}
-          <article class="homepage-news-item">
-            <p class="homepage-news-date">{{ news.date | date: "%B %-d, %Y" }}</p>
-            <p class="homepage-news-body">{{ news.details }}</p>
-          </article>
-        {% endfor %}
-      </div>
-
-      <p class="homepage-section-footer">
-        <a href="/news/">View more news</a>
-      </p>
     </div>
   </section>
 
