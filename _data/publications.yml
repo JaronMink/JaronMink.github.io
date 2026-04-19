@@ -61,6 +61,10 @@
   areas:
   - ml-for-security-applications
   - ml-security-and-privacy
+  links:
+  - label: PDF
+    style: primary
+    url: https://arxiv.org/pdf/2604.09998.pdf
 - id: pub-i-can-se-clearly-2026
   year: 2026
   date: '2026-04-13'

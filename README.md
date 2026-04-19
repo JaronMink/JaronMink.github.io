@@ -58,6 +58,7 @@ Jane is interested in usable security, privacy, and how people make sense of AI-
 - `position` should be one of `pi`, `postdoc`, `phdstudent`, `mastersstudent`, `researchstaff`, `visiting`, `others`, or `alumni`
 - `position-text` is the label shown on the people page
 - `profile_lines`, `website_url`, `website_label`, `email`, and `office` are optional
+- If your publication name differs from `title`, add `publication_names` with the exact author-name variants used in `_data/publications.yml`
 - If you do not have a field, just leave it out
 - If you only want to update your bio, edit `index.md` and leave the image files alone
 

@@ -1,51 +1,133 @@
 ---
 layout: default
 ---
+{% assign profile_publication_names = page.publication_names %}
+{% unless profile_publication_names %}
+  {% assign profile_publication_names = page.title | split: '|||' %}
+{% endunless %}
+{% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+{% capture profile_publications_markup %}
+  {% for pub in sorted_publications %}
+    {% assign profile_publication_match = false %}
+    {% for author in pub.authors %}
+      {% assign profile_author_name = author %}
+      {% if author.name %}
+        {% assign profile_author_name = author.name %}
+      {% endif %}
+      {% assign profile_author_name = profile_author_name | strip %}
+      {% if profile_publication_names contains profile_author_name %}
+        {% assign profile_publication_match = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if profile_publication_match %}
+      {% assign profile_publication_link = nil %}
+      {% for link in pub.links %}
+        {% if link.url and profile_publication_link == nil %}
+          {% assign profile_publication_link = link.url %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign profile_pub_year = pub.year | append: '' %}
+      {% capture profile_publication_authors %}
+        {%- for author in pub.authors -%}
+          {%- assign profile_author_name = author -%}
+          {%- assign profile_author_suffix = '' -%}
+          {%- if author.name -%}
+            {%- assign profile_author_name = author.name -%}
+            {%- assign profile_author_suffix = author.suffix | default: '' -%}
+          {%- endif -%}
+          {%- assign profile_author_name = profile_author_name | strip -%}
+          {%- if profile_publication_names contains profile_author_name -%}
+            <span class="profile-page-publication-author-current">{{ profile_author_name }}</span>{%- if profile_author_suffix != '' -%}{{ profile_author_suffix }}{%- endif -%}
+          {%- else -%}
+            {{ profile_author_name }}{%- if profile_author_suffix != '' -%}{{ profile_author_suffix }}{%- endif -%}
+          {%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
+        {%- endfor -%}
+      {% endcapture %}
+      <li class="profile-page-publication">
+        {% if profile_publication_link %}
+          <a class="profile-page-publication-title" href="{{ profile_publication_link }}">{{ pub.title }}</a>
+        {% else %}
+          <span class="profile-page-publication-title">{{ pub.title }}</span>
+        {% endif %}
+        <div class="profile-page-publication-authors">
+          {{ profile_publication_authors | strip }}
+        </div>
+        <div class="profile-page-publication-meta">
+          {% if pub.venue contains profile_pub_year %}
+            {{ pub.venue }}
+          {% else %}
+            {{ pub.venue }}, {{ pub.year }}
+          {% endif %}
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% assign profile_publications_markup = profile_publications_markup | strip %}
 <div class="container content page profile-page">
   <h3 class="page-title">{{ page.title }}</h3>
-  {% include profile-photo.html %}
+  <div class="profile-page-intro">
+    <div class="profile-page-sidebar">
+      <div class="profile-page-photo">
+        {% include profile-photo.html %}
+      </div>
 
-  {% if page.profile_lines or page.website_url or page.email or page.office %}
-    <div class="profile-page-meta">
-      {% if page.profile_lines %}
-        <ul class="profile-page-lines">
-          {% for line in page.profile_lines %}
-            <li>{{ line }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      {% if page.profile_lines or page.website_url or page.email or page.office %}
+        <div class="profile-page-meta">
+          {% if page.profile_lines %}
+            <ul class="profile-page-lines">
+              {% for line in page.profile_lines %}
+                <li>{{ line }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
 
-      {% if page.website_url %}
-        <p class="profile-page-contact">
-          <i class="fa fa-desktop"></i>
-          <a
-            href="{{ page.website_url }}"
-            data-analytics-event="profile_website_click"
-            data-analytics-param-context="profile_page"
-            data-analytics-param-person-name="{{ page.title | escape }}"
-          >{{ page.website_label | default: page.website_url }}</a>
-        </p>
-      {% endif %}
+          {% if page.website_url %}
+            <p class="profile-page-contact">
+              <i class="fa fa-desktop"></i>
+              <a
+                href="{{ page.website_url }}"
+                data-analytics-event="profile_website_click"
+                data-analytics-param-context="profile_page"
+                data-analytics-param-person-name="{{ page.title | escape }}"
+              >{{ page.website_label | default: page.website_url }}</a>
+            </p>
+          {% endif %}
 
-      {% if page.email %}
-        <p class="profile-page-contact">
-          <i class="fa fa-envelope-o"></i>
-          <a
-            href="mailto:{{ page.email }}"
-            data-analytics-event="profile_email_click"
-            data-analytics-param-context="profile_page"
-            data-analytics-param-person-name="{{ page.title | escape }}"
-          >{{ page.email }}</a>
-        </p>
-      {% endif %}
+          {% if page.email %}
+            <p class="profile-page-contact">
+              <i class="fa fa-envelope-o"></i>
+              <a
+                href="mailto:{{ page.email }}"
+                data-analytics-event="profile_email_click"
+                data-analytics-param-context="profile_page"
+                data-analytics-param-person-name="{{ page.title | escape }}"
+              >{{ page.email }}</a>
+            </p>
+          {% endif %}
 
-      {% if page.office %}
-        <p class="profile-page-office"><strong>Office</strong><br>{{ page.office | newline_to_br }}</p>
+          {% if page.office %}
+            <p class="profile-page-office"><strong>Office</strong><br>{{ page.office | newline_to_br }}</p>
+          {% endif %}
+        </div>
       {% endif %}
     </div>
-  {% endif %}
 
-  <div class="profile-page-body">
-    {{ content }}
+    <div class="profile-page-body">
+      {{ content }}
+    </div>
   </div>
+
+  {% if profile_publications_markup != '' %}
+    <hr class="profile-page-divider">
+    <section class="profile-page-publications" aria-labelledby="profile-page-publications-title">
+      <h4 id="profile-page-publications-title" class="profile-page-publications-title">Publications With The Lab</h4>
+      <ul class="profile-page-publications-list">
+        {{ profile_publications_markup }}
+      </ul>
+    </section>
+  {% endif %}
 </div>

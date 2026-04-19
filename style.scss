@@ -37,6 +37,9 @@ html {
 }
 
 body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -427,13 +430,40 @@ tbody tr:nth-child(odd) th {
 
 .profile-page-image {
   display: block;
-  width: min(300px, 100%);
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  margin: 0 0 1rem;
+  margin: 0;
+}
+
+.profile-page-intro {
+  display: grid;
+  grid-template-columns: minmax(13rem, 18.75rem) minmax(0, 1fr);
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+
+.profile-page-sidebar,
+.profile-page-body {
+  min-width: 0;
+}
+
+.profile-page-photo {
+  width: 100%;
+}
+
+@media (max-width: 42rem) {
+  .profile-page-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-page-sidebar {
+    max-width: 18rem;
+  }
 }
 
 .profile-page-meta {
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 .profile-page-lines {
@@ -458,6 +488,64 @@ tbody tr:nth-child(odd) th {
 
 .profile-page-office strong {
   color: #333;
+}
+
+.profile-page-body > :first-child {
+  margin-top: 0;
+}
+
+.profile-page-body > :last-child {
+  margin-bottom: 0;
+}
+
+.profile-page-divider {
+  margin: 2rem 0 1.25rem;
+  border: 0;
+  border-top: 1px solid #d7e1e7;
+}
+
+.profile-page-publications {
+  margin-top: 0;
+}
+
+.profile-page-publications-title {
+  margin-bottom: 0.85rem;
+}
+
+.profile-page-publications-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.profile-page-publication {
+  margin-bottom: 0.9rem;
+}
+
+.profile-page-publication:last-child {
+  margin-bottom: 0;
+}
+
+.profile-page-publication-title {
+  display: inline-block;
+  font-weight: 600;
+  color: #333;
+}
+
+.profile-page-publication-authors {
+  margin-top: 0.12rem;
+  color: #515151;
+}
+
+.profile-page-publication-author-current {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.profile-page-publication-meta {
+  margin-top: 0.12rem;
+  font-size: 0.78rem;
+  color: #60758a;
 }
 
 .highlight .hll { background-color: #ffffcc }
