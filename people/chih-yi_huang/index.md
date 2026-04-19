@@ -6,11 +6,11 @@ joined: 2024
 left: 2025
 left-to: Software Engineer, TSMC
 photo_ext: jpg
+profile_position: Research Apprentice in Computer Science
+profile_association: Arizona State University
 publication_names:
   - Chih-Yi Huang
   - Chih-Yi (Joy) Huang
-profile_lines:
-  - Research Apprentice in Computer Science, Arizona State University
 email: chuan194@asu.edu
 ---
 

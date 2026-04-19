@@ -36,7 +36,9 @@ position-text: PhD Student
 joined: 2026
 photo_ext: jpg
 profile_lines:
-  - PhD Student in Computer Science, Arizona State University
+  - Empiricist. Collaborator. Never Reviewer 2.
+profile_position: PhD Student in Computer Science
+profile_association: Arizona State University
 website_url: https://janedoe.example
 website_label: Personal Website
 email: jane.doe@asu.edu
@@ -54,6 +56,9 @@ Jane is interested in usable security, privacy, and how people make sense of AI-
 - `title` is the name shown on the site
 - `photo_ext` should match your image type, usually `jpg`
 - The page automatically looks for `profile.<photo_ext>` in the same folder as `index.md`
+- `profile_position` is the first line shown under the photo
+- `profile_association` is the second line shown under the photo
+- `profile_lines` is optional extra text shown below those two lines
 
 - `position` should be one of `pi`, `postdoc`, `phdstudent`, `mastersstudent`, `researchstaff`, `visiting`, `others`, or `alumni`
 - `position-text` is the label shown on the people page

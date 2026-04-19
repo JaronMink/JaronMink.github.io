@@ -448,8 +448,10 @@ tbody tr:nth-child(odd) th {
   min-width: 0;
 }
 
-.profile-page-photo {
+.profile-page-photo,
+.profile-page-meta {
   width: 100%;
+  max-width: 300px;
 }
 
 @media (max-width: 42rem) {
@@ -466,6 +468,23 @@ tbody tr:nth-child(odd) th {
   margin-top: 1rem;
 }
 
+.profile-page-position,
+.profile-page-association {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.profile-page-position {
+  color: #333;
+  font-weight: 600;
+}
+
+.profile-page-association {
+  margin-top: 0.15rem;
+  margin-bottom: 0.75rem;
+  color: #60758a;
+}
+
 .profile-page-lines {
   margin: 0 0 0.75rem;
   padding-left: 0;
@@ -473,8 +492,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .profile-page-lines li {
-  margin-bottom: 0.2rem;
-  font-style: italic;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
 }
 
 .profile-page-contact,

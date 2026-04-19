@@ -4,8 +4,8 @@ position: mastersstudent
 position-text: Master's Student
 joined: 2024
 photo_ext: jpg
-profile_lines:
-  - Master's Student in Computer Science, Arizona State University
+profile_position: Master's Student in Computer Science
+profile_association: Arizona State University
 email: nagarw48@asu.edu
 ---
 

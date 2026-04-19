@@ -3,9 +3,8 @@ title: Jaron Mink
 position: pi
 position-text: Principal Investigator
 photo_ext: jpg
-profile_lines:
-  - Assistant Professor, Arizona State University
-  - Empiricist. Collaborator. Never Reviewer 2.
+profile_position: Assistant Professor
+profile_association: Arizona State University
 website_url: https://jaronm.ink
 website_label: jaronm.ink
 email: jaron.mink@asu.edu

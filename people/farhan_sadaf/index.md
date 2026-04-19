@@ -4,8 +4,8 @@ position: phdstudent
 position-text: PhD Student
 joined: 2025
 photo_ext: jpg
-profile_lines:
-  - PhD Student in Computer Science, Arizona State University
+profile_position: PhD Student in Computer Science
+profile_association: Arizona State University
 website_url: https://www.kuet.ac.bd/cse/farhansadaf
 website_label: Personal Website
 email: fsadaf@asu.edu

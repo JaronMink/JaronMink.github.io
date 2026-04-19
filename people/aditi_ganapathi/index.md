@@ -4,8 +4,8 @@ position: phdstudent
 position-text: PhD Student
 joined: 2024
 photo_ext: jpg
-profile_lines:
-  - PhD Student in Computer Science, Arizona State University
+profile_position: PhD Student in Computer Science
+profile_association: Arizona State University
 email: aganap12@asu.edu
 ---
 

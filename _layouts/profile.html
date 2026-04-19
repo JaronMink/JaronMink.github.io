@@ -75,14 +75,20 @@ layout: default
         {% include profile-photo.html %}
       </div>
 
-      {% if page.profile_lines or page.website_url or page.email or page.office %}
+      {% if page.profile_position or page.profile_association or page.profile_lines or page.website_url or page.email or page.office %}
         <div class="profile-page-meta">
-          {% if page.profile_lines %}
-            <ul class="profile-page-lines">
-              {% for line in page.profile_lines %}
-                <li>{{ line }}</li>
-              {% endfor %}
-            </ul>
+          {% if page.profile_position %}
+            <p class="profile-page-position">{{ page.profile_position }}</p>
+          {% endif %}
+          {% if page.profile_association %}
+            <p class="profile-page-association">{{ page.profile_association }}</p>
+          {% endif %}
+          {% if page.profile_lines and page.profile_lines.size > 0 %}
+              <ul class="profile-page-lines">
+                {% for line in page.profile_lines %}
+                  <li>{{ line }}</li>
+                {% endfor %}
+              </ul>
           {% endif %}
 
           {% if page.website_url %}
