@@ -1,12 +1,9 @@
 {% assign profile_photo_alt = page.title | default: "Lab member photo" %}
 {% if page.photo_ext %}
-  {% assign profile_thumb = page.url | append: "thumb." | append: page.photo_ext %}
   {% assign profile_image = page.url | append: "profile." | append: page.photo_ext %}
   <img
     class="profile-page-image"
     src="{{ profile_image | relative_url }}"
-    srcset="{{ profile_thumb | relative_url }} 400w, {{ profile_image | relative_url }} 720w"
-    sizes="(max-width: 360px) calc(100vw - 2rem), 300px"
     alt="{{ profile_photo_alt }}"
     width="300"
     height="300"
@@ -16,8 +13,6 @@
   <img
     class="profile-page-image"
     src="{{ '/people/default/profile.jpg' | relative_url }}"
-    srcset="{{ '/people/default/thumb.jpg' | relative_url }} 400w, {{ '/people/default/profile.jpg' | relative_url }} 720w"
-    sizes="(max-width: 360px) calc(100vw - 2rem), 300px"
     alt="{{ profile_photo_alt }}"
     width="300"
     height="300"

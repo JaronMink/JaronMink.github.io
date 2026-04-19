@@ -22,7 +22,7 @@ person_page: false
               <a href="{{ profile.url | relative_url }}">
                 <img
                   class="profile-thumbnail"
-                  src="{{ profile.url | append: 'thumb.' | append: profile.photo_ext | relative_url }}"
+                  src="{{ profile.url | append: 'profile.' | append: profile.photo_ext | relative_url }}"
                   alt="{{ profile.title }}"
                   width="200"
                   height="200"
@@ -33,7 +33,7 @@ person_page: false
               <a href="{{ profile.url | relative_url }}">
                 <img
                   class="profile-thumbnail"
-                  src="{{ '/people/default/thumb.jpg' | relative_url }}"
+                  src="{{ '/people/default/profile.jpg' | relative_url }}"
                   alt="{{ profile.title }}"
                   width="200"
                   height="200"

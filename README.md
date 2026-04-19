@@ -18,13 +18,11 @@ Your folder should look like this:
 ```text
 people/<your_slug>/
   index.md
-  thumb.jpg
   profile.jpg
 ```
 
 - `index.md`: your page text and profile details
-- `thumb.jpg`: the smaller square image used on the people page
-- `profile.jpg`: the medium square image used on your full profile page
+- `profile.jpg`: the square image used on both the people page and your full profile page
 
 If your image needs transparency, use `.png` instead of `.jpg`.
 
@@ -55,7 +53,7 @@ Jane is interested in usable security, privacy, and how people make sense of AI-
 - The site automatically renders your photo, role line, website, email, and office.
 - `title` is the name shown on the site
 - `photo_ext` should match your image type, usually `jpg`
-- The page automatically looks for `thumb.<photo_ext>` and `profile.<photo_ext>` in the same folder as `index.md`
+- The page automatically looks for `profile.<photo_ext>` in the same folder as `index.md`
 
 - `position` should be one of `pi`, `postdoc`, `phdstudent`, `mastersstudent`, `researchstaff`, `visiting`, `others`, or `alumni`
 - `position-text` is the label shown on the people page

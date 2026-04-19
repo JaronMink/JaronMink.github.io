@@ -1,6 +1,6 @@
 hero:
   title: '<span class="acronym">H</span>uman <span class="acronym">A</span>spects of cyber <span class="acronym">P</span>rotection &amp; <span class="acronym">P</span>rivac<span class="acronym">Y</span>'
-  body: The Happy Lab studies how people shape the security, privacy, and real-world use of machine learning systems. We investigate where human factors create new vulnerabilities, where they unlock better defenses, and how to build safer AI systems in practice.
+  body: The Happy Lab studies how people shape the security, privacy, and real-world use of AI systems. We investigate where human factors create new vulnerabilities, where they unlock better defenses, and how to build safer AI systems in practice.
   primary_cta:
     label: Explore Publications
     href: /publication/
@@ -9,13 +9,13 @@ hero:
     href: /people/
 
 research_areas:
-  - label: ML-Enabled Abuse
+  - label: AI-Enabled Abuse
     image: /images/research-areas/optimized/aig-480.jpg
     image_srcset: /images/research-areas/optimized/aig-480.jpg 480w, /images/research-areas/optimized/aig-960.jpg 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
     image_height: 436
-    body: How people abuse ML systems, and how people perceive and respond to abusive AI-generated media.
+    body: How people abuse AI systems, and how people perceive and respond to abusive AI-generated media.
     links:
       - label: AI Sexual Content
         href: https://arxiv.org/abs/2601.21028
@@ -23,27 +23,27 @@ research_areas:
         href: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
       - label: Perceptions of AI Media
         href: https://jaronm.ink/assets/pdf/papers/deepphish_usenix22.pdf
-  - label: ML Security and Privacy
+  - label: AI Security and Privacy
     image: /images/research-areas/optimized/ml-in-secops-480.png
     image_srcset: /images/research-areas/optimized/ml-in-secops-480.png 480w, /images/research-areas/optimized/ml-in-secops-960.png 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
     image_height: 324
-    body: How sociotechnical factors impact real-world adoption of ML defenses.
+    body: How sociotechnical factors impact real-world adoption of AI defenses.
     links:
       - label: AML Defense Barriers
         href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
-  - label: ML for Security Applications
+  - label: AI for Security Applications
     image: /images/research-areas/optimized/cybersec-educ-480.png
     image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
     image_height: 324
-    body: How ML can be integrated into security-sensitive environments.
+    body: How AI can be integrated into security-sensitive environments.
     links:
       - label: AI Cyber Tutors
         href: https://arxiv.org/abs/2602.17448
-      - label: ML Tool Perceptions
+      - label: AI Tool Perceptions
         href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
   - label: Security and Privacy (General)
     image: /images/research-areas/optimized/security-privacy-general-480.jpg

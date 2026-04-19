@@ -7,7 +7,7 @@ In general, if you are interested in applying for a position or research opportu
 
 ## Why Study at ASU?
 [ASU has one of the strongest computer security groups in the world](https://csrankings.org/#/index?sec&us).
-We have over 14 faculty that specialize in computer security spanning everything from cryptography and binary analysis to machine learning security and security education.
+We have over 14 faculty that specialize in computer security spanning everything from cryptography and binary analysis to AI security and security education.
 Our courses are awesome, and we promote a friendly and supportive work culture.
 
 ### Prospective PhD Students
