@@ -562,8 +562,6 @@ tbody tr:nth-child(odd) th {
 
 .profile-page-publication-link .profile-page-publication-title {
   color: #333;
-  text-decoration: underline;
-  text-underline-offset: 0.14rem;
 }
 
 .profile-page-publication-link:hover,
@@ -581,6 +579,7 @@ tbody tr:nth-child(odd) th {
 .profile-page-publication-link:hover .profile-page-publication-title,
 .profile-page-publication-link:focus .profile-page-publication-title {
   font-weight: 700;
+  text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.2rem;
 }
