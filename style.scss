@@ -551,7 +551,42 @@ tbody tr:nth-child(odd) th {
   color: #333;
 }
 
+.profile-page-publication-link {
+  display: block;
+  margin: -0.32rem -0.45rem;
+  padding: 0.32rem 0.45rem;
+  border-radius: 6px;
+  color: inherit;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.profile-page-publication-link .profile-page-publication-title {
+  color: #333;
+  text-decoration: underline;
+  text-underline-offset: 0.14rem;
+}
+
+.profile-page-publication-link:hover,
+.profile-page-publication-link:focus {
+  box-shadow: 0 0.25rem 0.65rem rgba(21, 51, 79, 0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.profile-page-publication-link:focus-visible {
+  outline: 2px solid #333;
+  outline-offset: 2px;
+}
+
+.profile-page-publication-link:hover .profile-page-publication-title,
+.profile-page-publication-link:focus .profile-page-publication-title {
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2rem;
+}
+
 .profile-page-publication-authors {
+  display: block;
   margin-top: 0.12rem;
   color: #515151;
 }
@@ -562,6 +597,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .profile-page-publication-meta {
+  display: block;
   margin-top: 0.12rem;
   font-size: 0.78rem;
   color: #60758a;

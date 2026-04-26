@@ -48,20 +48,39 @@ layout: default
       {% endcapture %}
       <li class="profile-page-publication">
         {% if profile_publication_link %}
-          <a class="profile-page-publication-title" href="{{ profile_publication_link }}">{{ pub.title }}</a>
+          <a
+            class="profile-page-publication-link"
+            href="{{ profile_publication_link }}"
+            data-analytics-event="publication_click"
+            data-analytics-param-context="profile_publications"
+            data-analytics-param-publication-title="{{ pub.title | escape }}"
+            data-analytics-param-publication-year="{{ pub.year }}"
+          >
+            <span class="profile-page-publication-title">{{ pub.title }}</span>
+            <span class="profile-page-publication-authors">
+              {{ profile_publication_authors | strip }}
+            </span>
+            <span class="profile-page-publication-meta">
+              {% if pub.venue contains profile_pub_year %}
+                {{ pub.venue }}
+              {% else %}
+                {{ pub.venue }}, {{ pub.year }}
+              {% endif %}
+            </span>
+          </a>
         {% else %}
           <span class="profile-page-publication-title">{{ pub.title }}</span>
+          <div class="profile-page-publication-authors">
+            {{ profile_publication_authors | strip }}
+          </div>
+          <div class="profile-page-publication-meta">
+            {% if pub.venue contains profile_pub_year %}
+              {{ pub.venue }}
+            {% else %}
+              {{ pub.venue }}, {{ pub.year }}
+            {% endif %}
+          </div>
         {% endif %}
-        <div class="profile-page-publication-authors">
-          {{ profile_publication_authors | strip }}
-        </div>
-        <div class="profile-page-publication-meta">
-          {% if pub.venue contains profile_pub_year %}
-            {{ pub.venue }}
-          {% else %}
-            {{ pub.venue }}, {{ pub.year }}
-          {% endif %}
-        </div>
       </li>
     {% endif %}
   {% endfor %}
