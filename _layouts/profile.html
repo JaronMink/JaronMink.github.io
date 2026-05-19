@@ -6,6 +6,7 @@ layout: default
   {% assign profile_publication_names = page.title | split: '|||' %}
 {% endunless %}
 {% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+{% assign links_map = site.data.links %}
 {% capture profile_publications_markup %}
   {% for pub in sorted_publications %}
     {% assign profile_publication_match = false %}
@@ -23,11 +24,33 @@ layout: default
 
     {% if profile_publication_match %}
       {% assign profile_publication_link = nil %}
-      {% for link in pub.links %}
-        {% if link.url and profile_publication_link == nil %}
-          {% assign profile_publication_link = link.url %}
+      {% assign profile_publication_link_local = false %}
+      {% if pub.links %}
+        {% for link in pub.links %}
+          {% assign profile_link_href = link.url %}
+          {% if link.url_key %}
+            {% assign profile_link_href = links_map[link.url_key] %}
+          {% endif %}
+          {% if profile_link_href and profile_publication_link == nil %}
+            {% assign profile_publication_link = profile_link_href %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% unless profile_publication_link %}
+        {% assign profile_publication_link = '/publication/#' | append: pub.id %}
+        {% assign profile_publication_link_local = true %}
+      {% endunless %}
+      {% if profile_publication_link %}
+        {% assign rendered_profile_publication_link = profile_publication_link %}
+        {% assign profile_publication_link_prefix = profile_publication_link | slice: 0, 1 %}
+        {% if profile_publication_link_prefix == '/' %}
+          {% if profile_publication_link_local %}
+            {% assign rendered_profile_publication_link = profile_publication_link | relative_url %}
+          {% else %}
+            {% assign rendered_profile_publication_link = profile_publication_link | prepend: 'https://jaronm.ink' %}
+          {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endif %}
 
       {% assign profile_pub_year = pub.year | append: '' %}
       {% capture profile_publication_authors %}
@@ -50,7 +73,7 @@ layout: default
         {% if profile_publication_link %}
           <a
             class="profile-page-publication-link"
-            href="{{ profile_publication_link }}"
+            href="{{ rendered_profile_publication_link }}"
             data-analytics-event="publication_click"
             data-analytics-param-context="profile_publications"
             data-analytics-param-publication-title="{{ pub.title | escape }}"

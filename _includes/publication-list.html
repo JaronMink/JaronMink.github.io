@@ -2,7 +2,7 @@
 {% assign links_map = site.data.links %}
 {% for pub in sorted_publications %}
   {% capture bib_author_line %}{% for author in pub.authors %}{% assign bib_author_name = author %}{% assign bib_author_suffix = '' %}{% if author.name %}{% assign bib_author_name = author.name %}{% assign bib_author_suffix = author.suffix | default: '' %}{% endif %}{{ bib_author_name | replace: '*', '' | strip }}{{ bib_author_suffix | replace: '*', '' }}{% unless forloop.last %} and {% endunless %}{% endfor %}{% endcapture %}
-  <p>
+  <p id="{{ pub.id }}">
     <strong>{{ pub.title }}</strong>
     <br>
     {%- for author in pub.authors -%}
@@ -59,7 +59,7 @@
       {% endfor %}
     {% endif %}
     {% unless has_pdf %}
-      <span class="btn btn-unavailable btn-xs" role="status">PDF in preparation</span>
+      <span class="btn btn-unavailable btn-xs" role="status">In Preparation</span>
     {% endunless %}
     <button type="button" class="btn btn-info btn-xs js-copy-bib" data-title="{{ pub.title | escape }}" data-authors="{{ bib_author_line | strip | escape }}" data-booktitle="{{ pub.venue | escape }}" data-year="{{ pub.year }}" data-bibtex="{{ pub.citation.bibtex | jsonify | escape }}">Bib</button>
     <br>
