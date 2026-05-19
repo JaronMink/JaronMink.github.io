@@ -1,4 +1,5 @@
 {% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+{% assign links_map = site.data.links %}
 {% for pub in sorted_publications %}
   {% capture bib_author_line %}{% for author in pub.authors %}{% assign bib_author_name = author %}{% assign bib_author_suffix = '' %}{% if author.name %}{% assign bib_author_name = author.name %}{% assign bib_author_suffix = author.suffix | default: '' %}{% endif %}{{ bib_author_name | replace: '*', '' | strip }}{{ bib_author_suffix | replace: '*', '' }}{% unless forloop.last %} and {% endunless %}{% endfor %}{% endcapture %}
   <p>
@@ -29,11 +30,20 @@
     <br>
     {% if pub.links %}
       {% for link in pub.links %}
-        {% if link.url %}
+        {% assign link_href = link.url %}
+        {% if link.url_key %}
+          {% assign link_href = links_map[link.url_key] %}
+        {% endif %}
+        {% if link_href %}
+          {% assign rendered_link_href = link_href %}
+          {% assign link_href_prefix = link_href | slice: 0, 1 %}
+          {% if link_href_prefix == '/' %}
+            {% assign rendered_link_href = link_href | prepend: 'https://jaronm.ink' %}
+          {% endif %}
           <a
             type="button"
             class="btn btn-{{ link.style | default: 'info' }} btn-xs"
-            href="{{ link.url }}"
+            href="{{ rendered_link_href }}"
             data-analytics-event="publication_click"
             data-analytics-param-context="publication_list"
             data-analytics-param-publication-title="{{ pub.title | escape }}"
@@ -43,14 +53,23 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-    <button type="button" class="btn btn-info btn-xs js-copy-bib" data-title="{{ pub.title | escape }}" data-authors="{{ bib_author_line | strip | escape }}" data-booktitle="{{ pub.venue | escape }}" data-year="{{ pub.year }}">Bib</button>
+    <button type="button" class="btn btn-info btn-xs js-copy-bib" data-title="{{ pub.title | escape }}" data-authors="{{ bib_author_line | strip | escape }}" data-booktitle="{{ pub.venue | escape }}" data-year="{{ pub.year }}" data-bibtex="{{ pub.citation.bibtex | jsonify | escape }}">Bib</button>
     <br>
     {% if pub.news %}
       <span style="font-size:80%">
         News:
         {% for item in pub.news %}
-          {% if item.url %}
-            <a href="{{ item.url }}">{{ item.label }}</a>{% unless forloop.last %}, {% endunless %}
+          {% assign item_href = item.url %}
+          {% if item.url_key %}
+            {% assign item_href = links_map[item.url_key] %}
+          {% endif %}
+          {% if item_href %}
+            {% assign rendered_item_href = item_href %}
+            {% assign item_href_prefix = item_href | slice: 0, 1 %}
+            {% if item_href_prefix == '/' %}
+              {% assign rendered_item_href = item_href | prepend: 'https://jaronm.ink' %}
+            {% endif %}
+            <a href="{{ rendered_item_href }}">{{ item.label }}</a>{% unless forloop.last %}, {% endunless %}
           {% endif %}
         {% endfor %}
       </span>
