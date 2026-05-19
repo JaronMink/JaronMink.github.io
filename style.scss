@@ -800,6 +800,14 @@ tbody tr:nth-child(odd) th {
   border-color: var(--homepage-accent-dark);
 }
 
+.btn.btn-unavailable {
+  background-color: transparent;
+  border-color: #d7e1e7;
+  color: #60758a;
+  cursor: default;
+  opacity: 0.76;
+}
+
 .homepage-hero-mark {
   display: flex;
   align-items: flex-start;

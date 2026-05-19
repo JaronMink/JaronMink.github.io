@@ -28,8 +28,13 @@
       {{ pub.venue }}, {{ pub.year }}
     {% endif %}
     <br>
+    {% assign has_pdf = false %}
     {% if pub.links %}
       {% for link in pub.links %}
+        {% assign link_label_downcase = link.label | downcase %}
+        {% if link_label_downcase == 'pdf' %}
+          {% assign has_pdf = true %}
+        {% endif %}
         {% assign link_href = link.url %}
         {% if link.url_key %}
           {% assign link_href = links_map[link.url_key] %}
@@ -53,6 +58,9 @@
         {% endif %}
       {% endfor %}
     {% endif %}
+    {% unless has_pdf %}
+      <span class="btn btn-unavailable btn-xs" role="status">PDF in preparation</span>
+    {% endunless %}
     <button type="button" class="btn btn-info btn-xs js-copy-bib" data-title="{{ pub.title | escape }}" data-authors="{{ bib_author_line | strip | escape }}" data-booktitle="{{ pub.venue | escape }}" data-year="{{ pub.year }}" data-bibtex="{{ pub.citation.bibtex | jsonify | escape }}">Bib</button>
     <br>
     {% if pub.news %}
