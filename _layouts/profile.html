@@ -62,11 +62,11 @@ layout: default
             {%- assign profile_author_suffix = author.suffix | default: '' -%}
           {%- endif -%}
           {%- assign profile_author_name = profile_author_name | strip -%}
+          {%- assign profile_author_classes = 'profile-page-publication-author-name' -%}
           {%- if profile_publication_names contains profile_author_name -%}
-            <span class="profile-page-publication-author-current">{{ profile_author_name }}</span>{%- if profile_author_suffix != '' -%}{{ profile_author_suffix }}{%- endif -%}
-          {%- else -%}
-            {{ profile_author_name }}{%- if profile_author_suffix != '' -%}{{ profile_author_suffix }}{%- endif -%}
-          {%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
+            {%- assign profile_author_classes = profile_author_classes | append: ' profile-page-publication-author-current' -%}
+          {%- endif -%}
+          <span class="{{ profile_author_classes }}">{{ profile_author_name }}{%- if profile_author_suffix != '' -%}{{ profile_author_suffix }}{%- endif -%}</span>{%- unless forloop.last -%}, {% endunless -%}
         {%- endfor -%}
       {% endcapture %}
       <li class="profile-page-publication">

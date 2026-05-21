@@ -8,6 +8,11 @@ span.lab-member {
    display: inline;
 }
 
+.publication-author-name,
+.profile-page-publication-author-name {
+  white-space: nowrap;
+}
+
 .acronym {
   font-family: "Varela Round", "Open Sans", sans-serif;
   font-weight: 1000;

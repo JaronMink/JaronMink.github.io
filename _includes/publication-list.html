@@ -14,11 +14,11 @@
         {%- assign author_class = author.class -%}
         {%- assign author_suffix = author.suffix -%}
       {%- endif -%}
+      {%- assign author_classes = 'publication-author-name' -%}
       {%- if author_class -%}
-        <span class="{{ author_class }}">{{ author_name }}</span>{%- if author_suffix -%}{{ author_suffix }}{%- endif -%}
-      {%- else -%}
-        {{ author_name }}{%- if author_suffix -%}{{ author_suffix }}{%- endif -%}
-      {%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
+        {%- assign author_classes = author_classes | append: ' ' | append: author_class -%}
+      {%- endif -%}
+      <span class="{{ author_classes }}">{{ author_name }}{%- if author_suffix -%}{{ author_suffix }}{%- endif -%}</span>{%- unless forloop.last -%}, {% endunless -%}
     {%- endfor %}
     <br>
     {% assign pub_year = pub.year | append: '' %}
