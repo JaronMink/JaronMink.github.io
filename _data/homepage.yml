@@ -29,7 +29,7 @@ research_areas:
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
     image_height: 324
-    body: How sociotechnical factors impact real-world adoption of AI defenses.
+    body: How sociotechnical factors impact real-world security and privacy of AI.
     links:
       - label: AML Defense Barriers
         href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
