@@ -14,7 +14,7 @@ research_areas:
     image_srcset: /images/research-areas/optimized/aig-480.jpg 480w, /images/research-areas/optimized/aig-960.jpg 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
-    image_height: 436
+    image_height: 427
     body: How people abuse AI systems, and how people perceive and respond to abusive AI-generated media.
     links:
       - label: AI Sexual Content
@@ -28,7 +28,7 @@ research_areas:
     image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
     image_width: 960
-    image_height: 324
+    image_height: 359
     body: How AI can be integrated into security-sensitive environments.
     links:
       - label: AI Cyber Tutors
