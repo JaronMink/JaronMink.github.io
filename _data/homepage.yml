@@ -23,7 +23,21 @@ research_areas:
         href: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
       - label: Perceptions of AI Media
         href: https://jaronm.ink/assets/pdf/papers/deepphish_usenix22.pdf
-  - label: AI Security and Privacy
+  - label: AI for Security Applications
+    image: /images/research-areas/optimized/cybersec-educ-480.png
+    image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
+    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
+    image_width: 960
+    image_height: 324
+    body: How AI can be integrated into security-sensitive environments.
+    links:
+      - label: AI Cyber Tutors
+        href: https://arxiv.org/abs/2602.17448
+      - label: LLM Use in SOCs
+        href: https://arxiv.org/abs/2604.09998
+      - label: AI Use in SOCs
+        href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
+  - label: Security and Privacy of AI
     image: /images/research-areas/optimized/ml-in-secops-480.png
     image_srcset: /images/research-areas/optimized/ml-in-secops-480.png 480w, /images/research-areas/optimized/ml-in-secops-960.png 960w
     image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
@@ -35,18 +49,6 @@ research_areas:
         href: https://arxiv.org/abs/2505.02077
       - label: AML Defense Barriers
         href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
-  - label: AI for Security Applications
-    image: /images/research-areas/optimized/cybersec-educ-480.png
-    image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
-    image_sizes: "(max-width: 52rem) calc(100vw - 1.8rem), 30rem"
-    image_width: 960
-    image_height: 324
-    body: How AI can be integrated into security-sensitive environments.
-    links:
-      - label: AI Cyber Tutors
-        href: https://arxiv.org/abs/2602.17448
-      - label: AI Tool Perceptions
-        href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
   - label: Security and Privacy (General)
     image: /images/research-areas/optimized/security-privacy-general-480.jpg
     image_srcset: /images/research-areas/optimized/security-privacy-general-480.jpg 480w, /images/research-areas/optimized/security-privacy-general-960.jpg 960w
@@ -58,7 +60,7 @@ research_areas:
     links:
       - label: Symbolic Exec GUI
         href: https://jaronm.ink/assets/pdf/papers/i-can-se-clearly_chi26.pdf
-      - label: Sociodemographics & Security
+      - label: Sociodemographics
         href: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
       - label: Audit Log SoK
         href: https://jaronm.ink/assets/pdf/papers/history-is-a-vast-warning-system_ieee-23.pdf
