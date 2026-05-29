@@ -1,7 +1,7 @@
 ---
 title: Jaron Mink
 position: pi
-position-text: Principal Investigator
+position-text: Assistant Professor
 photo_ext: jpg
 profile_position: Assistant Professor
 profile_association: Arizona State University
