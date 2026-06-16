@@ -34,7 +34,7 @@ research_areas:
       - label: AI Cyber Tutors
         href: https://arxiv.org/abs/2602.17448
       - label: LLM Use in SOCs
-        href: https://arxiv.org/abs/2604.09998
+        href: https://jaronm.ink/assets/pdf/papers/like-a-hammer_soups26.pdf
       - label: AI Use in SOCs
         href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
   - label: Security and Privacy of AI
