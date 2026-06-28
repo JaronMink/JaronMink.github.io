@@ -87,6 +87,23 @@ person_page: false
         </tr>
       {% endif %}
     {% endfor %}
+    {% for profile in site.data.alumni %}
+      <tr>
+        <td>
+          <span class="name">{{ profile.title }}</span>
+        </td>
+        <td>
+          {% if profile.joined or profile.left %}
+            {{ profile.joined }}–{{ profile.left }} ({{ profile.position-text }})
+          {% else %}
+            {{ profile.position-text }}
+          {% endif %}
+        </td>
+        <td>
+          {{ profile['left-to'] }}
+        </td>
+      </tr>
+    {% endfor %}
   </tbody>
 </table>
 

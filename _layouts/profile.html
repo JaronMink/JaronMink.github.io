@@ -5,7 +5,7 @@ layout: default
 {% unless profile_publication_names %}
   {% assign profile_publication_names = page.title | split: '|||' %}
 {% endunless %}
-{% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+{% assign sorted_publications = site.data.publications | sort: "sort_date" | reverse %}
 {% assign links_map = site.data.links %}
 {% capture profile_publications_markup %}
   {% for pub in sorted_publications %}

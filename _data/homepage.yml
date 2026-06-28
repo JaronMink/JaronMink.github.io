@@ -18,11 +18,13 @@ research_areas:
     body: How people abuse AI systems, and how people perceive and respond to abusive AI-generated media.
     links:
       - label: AI Sexual Content
-        href: https://arxiv.org/abs/2601.21028
+        href: /publication/#pub-aig-sc-2026
+      - label: Longitudinal Analysis of AI Detection Methods
+        href: /publication/#pub-is-this-ai-2026
       - label: Bias in AI Media Moderation
-        href: https://jaronm.ink/assets/pdf/papers/deepfake-moderation-mistakes_chi24.pdf
+        href: /publication/#pub-deepfake-moderation-2024
       - label: Perceptions of AI Media
-        href: https://jaronm.ink/assets/pdf/papers/deepphish_usenix22.pdf
+        href: /publication/#pub-deepphish-2022
   - label: AI for Security Applications
     image: /images/research-areas/optimized/cybersec-educ-480.png
     image_srcset: /images/research-areas/optimized/cybersec-educ-480.png 480w, /images/research-areas/optimized/cybersec-educ-960.png 960w
@@ -32,11 +34,11 @@ research_areas:
     body: How AI can be integrated into security-sensitive environments.
     links:
       - label: AI Cyber Tutors
-        href: https://arxiv.org/abs/2602.17448
+        href: /publication/#pub-ai-cyber-tutors-2026
       - label: LLM Use in SOCs
-        href: https://jaronm.ink/assets/pdf/papers/like-a-hammer_soups26.pdf
+        href: /publication/#pub-like-a-hammer-2026
       - label: AI Use in SOCs
-        href: https://jaronm.ink/assets/pdf/papers/everybodys-got-ml_ieee23.pdf
+        href: /publication/#pub-everybodys-got-ml-2023
   - label: Security and Privacy of AI
     image: /images/research-areas/optimized/ml-in-secops-480.png
     image_srcset: /images/research-areas/optimized/ml-in-secops-480.png 480w, /images/research-areas/optimized/ml-in-secops-960.png 960w
@@ -46,9 +48,9 @@ research_areas:
     body: How sociotechnical factors impact real-world security and privacy of AI.
     links:
       - label: Multi-Agent Security
-        href: https://arxiv.org/abs/2505.02077
+        href: /publication/#pub-open-challenges-multi-agent-security-2025
       - label: AML Defense Barriers
-        href: https://jaronm.ink/assets/pdf/papers/security-is-not-my-field_usenix23.pdf
+        href: /publication/#pub-security-not-my-field-2023
   - label: Security and Privacy (General)
     image: /images/research-areas/optimized/security-privacy-general-480.jpg
     image_srcset: /images/research-areas/optimized/security-privacy-general-480.jpg 480w, /images/research-areas/optimized/security-privacy-general-960.jpg 960w
@@ -59,17 +61,17 @@ research_areas:
     body: Usable security and privacy, system security, and evaluation of HCI methodology.
     links:
       - label: Symbolic Exec GUI
-        href: https://jaronm.ink/assets/pdf/papers/i-can-se-clearly_chi26.pdf
+        href: /publication/#pub-i-can-se-clearly-2026
       - label: Sociodemographics
-        href: https://jaronm.ink/assets/pdf/papers/sociodemographic-solk_usenix24.pdf
+        href: /publication/#pub-solk-2024
       - label: Audit Log SoK
-        href: https://jaronm.ink/assets/pdf/papers/history-is-a-vast-warning-system_ieee-23.pdf
+        href: /publication/#pub-history-early-warning-2023
       - label: Bot Survey Fraud
-        href: https://jaronm.ink/assets/pdf/papers/beyond-bot-detection_www22.pdf
+        href: /publication/#pub-beyond-bot-detection-2022
       - label: Survey Fraud SoK
         href: /publication/#pub-sok-survey-fraud-2026
       - label: Privacy Zones
-        href: https://jaronm.ink/assets/pdf/papers/users-can-deduce_chi22.pdf
+        href: /publication/#pub-users-can-deduce-2022
 
 news_count: 4
 

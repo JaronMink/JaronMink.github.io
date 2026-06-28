@@ -6,7 +6,7 @@ Our lab is always recruiting talented, motivated students!
 In general, if you are interested in applying for a position or research opportunity, please fill out the lab's <a href="https://asuengineering.co1.qualtrics.com/jfe/form/SV_5avW0LfJ4RhJxyK" data-analytics-event="apply_click" data-analytics-param-context="apply_page_intro" data-analytics-param-apply-target="happy_lab_application_form">application form</a>. All applicants will be reviewed, and if a good match exists, we'll reach out to you.
 
 ## Why Study at ASU?
-[ASU has one of the strongest computer security groups in the world](https://csrankings.org/#/index?sec&us).
+[ASU has one of the strongest computer security groups in the US](https://csrankings.org/#/index?sec&us).
 We have over 14 faculty that specialize in computer security spanning everything from cryptography and binary analysis to AI security and security education.
 Our courses are awesome, and we promote a friendly and supportive work culture.
 

@@ -1,7 +1,13 @@
-{% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+{% assign sorted_publications = site.data.publications | sort: "sort_date" | reverse %}
+{% assign publication_years = sorted_publications | group_by: "year" %}
 {% assign links_map = site.data.links %}
-{% for pub in sorted_publications %}
-  <p id="{{ pub.id }}">
+<div class="publication-list publication-list--yearly">
+{% for year_group in publication_years %}
+  <section class="publication-year-group" aria-labelledby="publication-year-{{ year_group.name }}">
+    <div class="publication-year-label" id="publication-year-{{ year_group.name }}">{{ year_group.name }}</div>
+    <div class="publication-year-items">
+    {% for pub in year_group.items %}
+  <p class="publication-entry" id="{{ pub.id }}">
     <strong>{{ pub.title }}</strong>
     <br>
     {%- for author in pub.authors -%}
@@ -88,4 +94,8 @@
       {% endfor %}
     {% endif %}
   </p>
+    {% endfor %}
+    </div>
+  </section>
 {% endfor %}
+</div>
