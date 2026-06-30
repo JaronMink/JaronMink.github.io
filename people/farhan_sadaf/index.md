@@ -6,7 +6,7 @@ joined: 2025
 photo_ext: jpg
 profile_position: PhD Student in Computer Science
 profile_association: Arizona State University
-website_url: https://www.kuet.ac.bd/cse/farhansadaf
+website_url: https://farhansadaf.github.io/
 website_label: Personal Website
 email: fsadaf@asu.edu
 ---
