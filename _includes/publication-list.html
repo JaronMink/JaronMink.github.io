@@ -40,6 +40,7 @@
         {% if link_label_downcase == 'pdf' %}
           {% assign has_pdf = true %}
         {% endif %}
+        {% if link_label_downcase != 'slides' %}
         {% assign link_href = link.url %}
         {% if link.url_key %}
           {% assign link_href = links_map[link.url_key] %}
@@ -60,6 +61,7 @@
             data-analytics-param-publication-year="{{ pub.year }}"
             data-analytics-param-link-label="{{ link.label | escape }}"
           >{{ link.label }}</a>{% if pub.badge and forloop.last %} <span class="label label-success">{{ pub.badge }}</span>{% endif %}{% unless forloop.last %} {% endunless %}
+        {% endif %}
         {% endif %}
       {% endfor %}
     {% endif %}
