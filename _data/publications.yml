@@ -7,7 +7,8 @@
   title: 'Do Hackers Dream of Electric Teachers?: A Large-Scale, In-Situ Evaluation
     of Cybersecurity Student Behaviors and Performance with AI Tutors'
   authors:
-  - Michael Tompkins
+  - name: Michael Tompkins
+    class: lab-member
   - name: Nihaarika Agarwal
     class: lab-member
   - Ananta Soneji
