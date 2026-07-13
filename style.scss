@@ -720,14 +720,23 @@ tbody tr:nth-child(odd) th {
 }
 
 .people {
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 1rem;
+  row-gap: 1.25rem;
+  justify-content: center;
+  align-items: start;
+  margin: 0.75em auto 0;
   text-align: center;
-  margin-top: 0.75em;
 }
 
 .list-item-people {
-  display: inline-block;
-  padding-right: 1em;
+  grid-column: span 2;
+  min-width: 0;
+}
+
+.list-item-people:last-child:nth-child(odd) {
+  grid-column: 2 / span 2;
 }
 
 .list-post-title img {
@@ -750,6 +759,47 @@ tbody tr:nth-child(odd) th {
 
 .list-item a:hover, .list-post-title:hover .name, .list-post-title .name:hover {
   color: #c42929;
+}
+
+@media (min-width: 46.01rem) {
+  .people {
+    grid-template-columns: repeat(6, minmax(0, 100px));
+  }
+
+  .list-item-people {
+    grid-column: span 2;
+    width: auto;
+    max-width: none;
+  }
+
+  .list-item-people:last-child:nth-child(odd) {
+    grid-column: span 2;
+    width: auto;
+    max-width: none;
+    justify-self: stretch;
+  }
+
+  // Center a final pair in the three-card grid.
+  .list-item-people:nth-child(3n + 1):nth-last-child(2) {
+    grid-column: 2 / span 2;
+  }
+
+  .list-item-people:nth-child(3n + 1):nth-last-child(2) + .list-item-people {
+    grid-column: 4 / span 2;
+  }
+
+  // When four cards remain, arrange them as two rows of two.
+  .list-item-people:nth-child(3n + 1):nth-last-child(4),
+  .list-item-people:nth-child(3n + 1):nth-last-child(4) ~ .list-item-people {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 46rem) {
+  .people .profile-thumbnail {
+    aspect-ratio: 1;
+    height: auto;
+  }
 }
 
 .homepage {
