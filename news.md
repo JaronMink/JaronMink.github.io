@@ -13,7 +13,7 @@ permalink: /news/
     {% assign sorted_news = site.data.news | sort: "date" | reverse %}
     {% for news in sorted_news %}
       <article class="news-archive-item">
-        <p class="news-archive-date">{{ news.date | date: "%B %-d, %Y" }}</p>
+        <time class="news-archive-date" datetime="{{ news.date | date: "%Y-%m-%d" }}">{{ news.date | date: "%B %-d, %Y" }}</time>
         <div class="news-archive-body">{{ news.details }}</div>
       </article>
     {% endfor %}

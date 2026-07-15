@@ -39,21 +39,21 @@ layout: default
   <section class="homepage-section homepage-section-news">
     <div class="homepage-shell">
       <div class="homepage-news-frame">
-        <p class="homepage-news-label">Recent News</p>
-        <ul class="homepage-news-list">
+        <div class="homepage-news-heading">
+          <p class="homepage-news-label">Recent News</p>
+          <p class="homepage-section-footer homepage-section-footer-news">
+            <a href="/news/">View more</a>
+          </p>
+        </div>
+        <ul class="homepage-news-list" tabindex="0" aria-label="Recent lab news">
           {% for news in site.data.news limit: homepage.news_count %}
             <li class="homepage-news-item">
-              <p class="homepage-news-entry">
-                <span class="homepage-news-date">{{ news.date | date: "%B %-d, %Y" }}</span>
-                <span class="homepage-news-body">{{ news.details }}</span>
-              </p>
+              <time class="homepage-news-date" datetime="{{ news.date | date: "%Y-%m-%d" }}">{{ news.date | date: "%B %-d, %Y" }}</time>
+              <div class="homepage-news-body">{{ news.details }}</div>
             </li>
           {% endfor %}
         </ul>
 
-        <p class="homepage-section-footer homepage-section-footer-news">
-          <a href="/news/">View more news</a>
-        </p>
       </div>
     </div>
   </section>
