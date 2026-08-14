@@ -4,6 +4,6 @@ permalink: /publication/
 ---
 # Publications
 
-<u>Lab members</u> are underlined. `*` indicates equal contribution.
+`*` indicates equal contribution.
 
 {% include publication-list.html %}
