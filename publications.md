@@ -4,6 +4,6 @@ permalink: /publication/
 ---
 # Publications
 
-`*` indicates equal contribution.
+<sup class="publication-author-marker">*</sup> indicates equal contribution.
 
 {% include publication-list.html %}
