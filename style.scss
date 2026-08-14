@@ -2,10 +2,19 @@
 ---
 
 span.lab-member {
-  text-decoration-line: underline;
-   text-decoration-thickness: 2px;
-   //text-underline-offset: 2px;                                                                                                                                                                                      
-   display: inline;
+  display: inline;
+}
+
+.publication-list--yearly span.lab-member {
+  text-decoration: none;
+}
+
+.publication-author-marker {
+  color: var(--homepage-accent);
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 0;
+  vertical-align: super;
 }
 
 .publication-author-name,
