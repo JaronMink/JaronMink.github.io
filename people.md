@@ -82,7 +82,9 @@ person_page: false
             {{ profile.joined }}–{{ profile.left }} ({{ profile.position-text }})
           </td>
           <td>
-            {{ profile['left-to'] }}
+            {% if profile['left-to'] %}
+              {{ profile['left-to'] }}
+            {% endif %}
           </td>
         </tr>
       {% endif %}
@@ -100,7 +102,9 @@ person_page: false
           {% endif %}
         </td>
         <td>
-          {{ profile['left-to'] }}
+          {% if profile['left-to'] %}
+            {{ profile['left-to'] }}
+          {% endif %}
         </td>
       </tr>
     {% endfor %}

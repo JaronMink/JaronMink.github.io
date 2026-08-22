@@ -1,8 +1,9 @@
 ---
 title: Nihaarika Agarwal
-position: mastersstudent
+position: alumni
 position-text: Master's Student
 joined: 2024
+left: 2026
 photo_ext: jpg
 profile_position: Master's Student in Computer Science
 profile_association: Arizona State University
