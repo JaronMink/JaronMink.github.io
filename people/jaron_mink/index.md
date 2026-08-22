@@ -9,8 +9,8 @@ website_url: https://jaronm.ink
 website_label: jaronm.ink
 email: jaron.mink@asu.edu
 office: |-
-  ASU Brickyard Engineering (BYENG) 444, 699 S Mill Ave,
-  Tempe, AZ 85281
+  School of Computing and Augmented Intelligence
+  Arizona State University, Tempe, Arizona
 ---
 
 [Jaron Mink](http://jaronm.ink/) runs their lab at Arizona State University.
