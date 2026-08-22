@@ -6,6 +6,8 @@ person_page: false
 ---
 
 {% assign people_sorted = site.pages | where: 'person_page', true | sort: 'joined' %}
+{% assign alumni_sorted = people_sorted | where: 'position', 'alumni' | sort: 'left' | reverse %}
+{% assign alumni_data_sorted = site.data.alumni | sort: 'left' | reverse %}
 {% assign role_array = "pi|postdoc|phdstudent|mastersstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 
 <h3>Our Team</h3>
@@ -70,8 +72,7 @@ person_page: false
     </tr>
   </thead>
   <tbody>
-      {% for profile in people_sorted %}
-      {% if profile.position == "alumni" %}
+    {% for profile in alumni_sorted %}
         <tr>
           <td>
             <a class="name" href="{{ profile.url | relative_url }}">
@@ -87,9 +88,8 @@ person_page: false
             {% endif %}
           </td>
         </tr>
-      {% endif %}
     {% endfor %}
-    {% for profile in site.data.alumni %}
+    {% for profile in alumni_data_sorted %}
       <tr>
         <td>
           <span class="name">{{ profile.title }}</span>
