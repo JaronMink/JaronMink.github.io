@@ -35,6 +35,8 @@ research_areas:
     image_height: 359
     body: How AI can be integrated into security-sensitive environments.
     links:
+      - label: AI Tutor Failures Across Models
+        href: /publication/#pub-newer-models-better-tutors-2027
       - label: AI Cyber Tutors
         href: /publication/#pub-ai-cyber-tutors-2026
       - label: LLM Use in SOCs
@@ -62,6 +64,8 @@ research_areas:
     image_fit: fill
     body: Usable security and privacy, system security, and evaluation of HCI methodology.
     links:
+      - label: Welcoming in Cybersecurity
+        href: /publication/#pub-operationalizing-welcoming-cybersecurity-2027
       - label: Symbolic Exec GUI
         href: /publication/#pub-i-can-se-clearly-2026
       - label: Sociodemographics
